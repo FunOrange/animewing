@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Hls from "hls.js";
 
-export default function M3U8Player({ m3u8Url }) {
+export default function useHls(m3u8Url: string) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  console.log("m3u8Url", m3u8Url);
 
   useEffect(() => {
     // Check if the browser supports HLS.js
@@ -24,5 +23,5 @@ export default function M3U8Player({ m3u8Url }) {
     }
   }, [m3u8Url]);
 
-  return <video ref={videoRef} controls width="100%" />;
+  return videoRef;
 }
