@@ -19,7 +19,7 @@ function App() {
 
   const transcript = useTranscript({ anime: "nhk-ni-youkoso", episode });
   const currentSubtitles = transcript?.filter(
-    (t) => t.Start <= currentSeconds && t.End >= currentSeconds
+    (t) => t.Start <= currentSeconds && t.End >= currentSeconds,
   );
 
   const { showSubtitles } = useKeyboardControls(videoRef, transcript);
@@ -47,7 +47,8 @@ function App() {
               className={cn(
                 "px-2 py-1 cursor-pointer hover:bg-dusk-300/30 transition-colors",
                 i % 2 === 0 && "bg-dusk-800",
-                i === episode - 1 && "text-dusk-800 bg-pink-300 hover:bg-pink-300 cursor-default"
+                i === episode - 1 &&
+                  "text-dusk-800 bg-pink-300 hover:bg-pink-300 cursor-default",
               )}
               onClick={() => setEpisode(i + 1)}
             >
@@ -68,12 +69,12 @@ function App() {
           <div className="relative">
             {/* subtitle overlay */}
             {showSubtitles && (
-              <div className="absolute z-10 flex flex-col items-center w-full gap-2 bottom-8">
+              <div className="absolute z-10 pointer-events-none flex flex-col items-center w-full gap-2 bottom-8">
                 {currentSubtitles
                   ?.sort((a, b) => b.MarginV - a.MarginV)
                   ?.map((subtitle, i) => (
                     <div
-                      className="text-center bg-black px-2 py-4 text-3xl rounded max-w-[80%] min-w-[55%]"
+                      className="pointer-events-auto text-center bg-black px-2 py-4 text-3xl rounded max-w-[80%] min-w-[55%]"
                       key={i}
                     >
                       {subtitle.Text}
@@ -89,7 +90,8 @@ function App() {
             Controls:
             <ul>
               <li>Space: Play/Pause</li>
-              <li>Ctrl: Toggle Subtitles</li>
+              <li>Shift: Pause</li>
+              <li>Ctrl: Hide Subtitles</li>
               <li>A: Go to previous subtitle</li>
               <li>D: Go to next subtitle</li>
             </ul>
