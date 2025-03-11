@@ -83,16 +83,16 @@ function App() {
             )}
 
             <video ref={videoRef} controls width="100%" />
+          </div>
 
-            <div className="p-4 overflow-y-auto">
-              Controls:
-              <ul>
-                <li>Space: Play/Pause</li>
-                <li>Ctrl: Toggle Subtitles</li>
-                <li>A: Go to previous subtitle</li>
-                <li>D: Go to next subtitle</li>
-              </ul>
-            </div>
+          <div className="p-4 overflow-y-auto">
+            Controls:
+            <ul>
+              <li>Space: Play/Pause</li>
+              <li>Ctrl: Toggle Subtitles</li>
+              <li>A: Go to previous subtitle</li>
+              <li>D: Go to next subtitle</li>
+            </ul>
           </div>
         </div>
       </div>
