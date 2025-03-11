@@ -19,15 +19,15 @@ function App() {
 
   const transcript = useTranscript({ anime: "nhk-ni-youkoso", episode });
   const currentSubtitles = transcript?.filter(
-    (t) => t.Start <= currentSeconds && t.End >= currentSeconds,
+    (t) => t.Start <= currentSeconds && t.End >= currentSeconds
   );
 
-  const { showSubtitles } = useKeyboardControls(videoRef);
+  const { showSubtitles } = useKeyboardControls(videoRef, transcript);
 
   return (
     <>
-      <section className="top-0 flex justify-center w-full bg-dusk-700/70 h-16 border-b border-dusk-900 backdrop-blur-sm shadow-md">
-        <div className="max-w-screen-xl w-full flex items-center px-2">
+      <section className="top-0 flex justify-center w-full h-16 border-b shadow-md bg-dusk-700/70 border-dusk-900 backdrop-blur-sm">
+        <div className="flex items-center w-full max-w-screen-xl px-2">
           <h1 className="w-full text-3xl">
             <span className="text-dusk-200">ani</span>mewing
           </h1>
@@ -35,20 +35,19 @@ function App() {
       </section>
 
       <div
-        className="w-full max-w-screen-xl grid h-screen"
+        className="grid w-full h-screen max-w-screen-xl"
         style={{ gridTemplateColumns: "200px 1fr" }}
       >
         {/* episode list */}
-        <section className="border-r border-dusk-800 shadow-md overflow-y-auto">
-          <div className="bg-black/50 p-2">Episode List</div>
+        <section className="overflow-y-auto border-r shadow-md border-dusk-800">
+          <div className="p-2 bg-black/50">Episode List</div>
           {new Array(24).fill(0).map((_, i) => (
             <div
               key={i}
               className={cn(
                 "px-2 py-1 cursor-pointer hover:bg-dusk-300/30 transition-colors",
                 i % 2 === 0 && "bg-dusk-800",
-                i === episode - 1 &&
-                  "text-dusk-800 bg-pink-300 hover:bg-pink-300 cursor-default",
+                i === episode - 1 && "text-dusk-800 bg-pink-300 hover:bg-pink-300 cursor-default"
               )}
               onClick={() => setEpisode(i + 1)}
             >
@@ -59,7 +58,7 @@ function App() {
 
         <div className="flex flex-col">
           {/* breadcrumb */}
-          <div className="self-start flex items-center gap-2 px-4 py-2">
+          <div className="flex items-center self-start gap-2 px-4 py-2">
             <div>Welcome to the NHK</div>
             <div>/</div>
             <div>Episode {episode}</div>
@@ -69,7 +68,7 @@ function App() {
           <div className="relative">
             {/* subtitle overlay */}
             {showSubtitles && (
-              <div className="absolute z-10 bottom-8 w-full flex flex-col gap-2 items-center">
+              <div className="absolute z-10 flex flex-col items-center w-full gap-2 bottom-8">
                 {currentSubtitles
                   ?.sort((a, b) => b.MarginV - a.MarginV)
                   ?.map((subtitle, i) => (
@@ -84,6 +83,16 @@ function App() {
             )}
 
             <video ref={videoRef} controls width="100%" />
+
+            <div className="p-4 overflow-y-auto">
+              Controls:
+              <ul>
+                <li>Space: Play/Pause</li>
+                <li>Ctrl: Toggle Subtitles</li>
+                <li>A: Go to previous subtitle</li>
+                <li>D: Go to next subtitle</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

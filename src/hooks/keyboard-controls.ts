@@ -1,7 +1,9 @@
 import { RefObject, useEffect, useState } from "react";
+import useTranscript from "./transcript";
 
 export default function useKeyboardControls(
   videoRef: RefObject<HTMLVideoElement | null>,
+  transcript: ReturnType<typeof useTranscript>
 ) {
   const [showSubtitles, setShowSubtitles] = useState(true);
   useEffect(() => {
@@ -19,6 +21,23 @@ export default function useKeyboardControls(
           videoRef.current?.pause();
         }
         e.stopPropagation();
+      } else if (e.key === "a") {
+        const offset = 0.5;
+        const previousDialogue = transcript
+          ?.filter((dialogue) => dialogue.Start < videoRef.current!.currentTime - offset || 0)
+          ?.sort((a, b) => b.Start - a.Start)[0];
+        if (previousDialogue) {
+          videoRef.current!.currentTime = previousDialogue.Start;
+          e.stopPropagation();
+        }
+      } else if (e.key === "d") {
+        const nextDialogue = transcript
+          ?.filter((dialogue) => dialogue.Start > videoRef.current!.currentTime || 0)
+          ?.sort((a, b) => a.Start - b.Start)[0];
+        if (nextDialogue) {
+          videoRef.current!.currentTime = nextDialogue.Start;
+          e.stopPropagation();
+        }
       }
     };
     window.addEventListener("keydown", keydown);
@@ -29,7 +48,7 @@ export default function useKeyboardControls(
       window.removeEventListener("keyup", keyup);
       window.removeEventListener("keypress", keypress);
     };
-  }, []);
+  }, [transcript?.length]);
 
   return { showSubtitles };
 }
