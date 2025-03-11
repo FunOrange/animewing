@@ -34,7 +34,7 @@ function App() {
         </div>
       </section>
 
-      <div className="grid w-full h-screen max-w-screen-xl grid-cols-[44px_1fr] lg:grid-cols-[200px_1fr]">
+      <div className="grid w-full h-screen max-w-screen-xl grid-cols-[44px_1fr] lg:grid-cols-[140px_1fr]">
         {/* episode list */}
         <section className="overflow-y-auto border-r shadow-md border-dusk-800">
           <div className="hidden p-2 lg:block bg-black/50 line-clamp-1">Episode List</div>
@@ -71,7 +71,7 @@ function App() {
                   ?.sort((a, b) => b.MarginV - a.MarginV)
                   ?.map((subtitle, i) => (
                     <div
-                      className="pointer-events-auto text-center bg-black px-2 py-4 text-3xl rounded max-w-[80%] min-w-[55%]"
+                      className="pointer-events-auto text-center border-2 border-dusk-500 bg-black/70 text-white backdrop-blur-2xl px-6 py-4 text-3xl rounded-xl max-w-[80%] min-w-[55%]"
                       key={i}
                     >
                       {subtitle.Text}
