@@ -7,7 +7,7 @@ import useTranscript, { Token } from "./hooks/transcript";
 import useKeyboardControls from "./hooks/keyboard-controls";
 import { AnimeMetadata } from "./listing";
 import { Link } from "react-router-dom";
-import { match, P } from "ts-pattern";
+import { match } from "ts-pattern";
 
 export interface WatchProps {
   anime: string;
@@ -32,7 +32,10 @@ export default function Watch({ anime, metadata }: WatchProps) {
     (t) => t.start <= currentSeconds && t.end >= currentSeconds,
   );
 
-  const { showSubtitles } = useKeyboardControls(videoRef, transcript);
+  const { showSubtitles, fullscreen } = useKeyboardControls(
+    videoRef,
+    transcript,
+  );
 
   return (
     <div className="grid w-full h-screen max-w-screen-2xl grid-cols-[44px_1fr] lg:grid-cols-[140px_1fr]">
@@ -71,32 +74,40 @@ export default function Watch({ anime, metadata }: WatchProps) {
         </div>
 
         {/* video player */}
-        <div className="relative">
+        <div
+          className={cn(
+            "relative",
+            fullscreen &&
+              "flex justify-center items-center bg-black absolute top-0 left-0 w-screen h-screen",
+          )}
+        >
           {/* subtitle overlay */}
           {showSubtitles && (
-            <div
-              className="absolute z-10 flex flex-col items-center w-full gap-2 pointer-events-none"
-              style={{ bottom: metadata.positionY ?? "10%" }}
-            >
-              {currentSubtitles
-                ?.sort((a, b) => (b as any).MarginV - (a as any).MarginV)
-                ?.map((subtitle, i) => (
-                  <div
-                    className="flex items-center gap-4 max-w-[80%] min-w-[55%]"
-                    key={i}
-                  >
-                    {previousSubtitleHint}
-                    <div className="w-full whitespace-pre-line px-3 py-2 text-center text-white border-2 pointer-events-auto md:px-6 md:py-4 2xl:py-8 text-md md:text-xl xl:text-3xl 2xl:text-4xl border-dusk-500 bg-black/70 backdrop-blur-2xl rounded-xl">
-                      {subtitle.tokens.map((token, i) => (
-                        <span key={i} className={posStyles(token.pos)}>
-                          {token.surface}
-                        </span>
-                      ))}
-                      {/* {subtitle.text} */}
+            <div className="absolute z-10 w-full aspect-video">
+              <div
+                className="absolute z-10 flex flex-col items-center w-full gap-2 pointer-events-none"
+                style={{ bottom: metadata.positionY ?? "10%" }}
+              >
+                {currentSubtitles
+                  ?.sort((a, b) => (b as any).MarginV - (a as any).MarginV)
+                  ?.map((subtitle, i) => (
+                    <div
+                      className="flex items-center gap-4 max-w-[80%] min-w-[55%]"
+                      key={i}
+                    >
+                      {previousSubtitleHint}
+                      <div className="w-full whitespace-pre-line px-3 py-2 text-center text-white border-2 pointer-events-auto md:px-6 md:py-4 2xl:py-8 text-md md:text-xl xl:text-3xl 2xl:text-4xl border-dusk-500 bg-black/70 backdrop-blur-2xl rounded-xl">
+                        {subtitle.tokens.map((token, i) => (
+                          <span key={i} className={posStyles(token.pos)}>
+                            {token.surface}
+                          </span>
+                        ))}
+                        {/* {subtitle.text} */}
+                      </div>
+                      <div className="hidden w-16 lg:block" />
                     </div>
-                    <div className="hidden w-16 lg:block" />
-                  </div>
-                ))}
+                  ))}
+              </div>
             </div>
           )}
 
@@ -155,6 +166,7 @@ const posStyles = (pos: Token["pos"]) =>
     .with(["名詞", "固有名詞", "地域", "一般"], () => "text-emerald-300")
     .with(["名詞", "固有名詞", "人名", "名"], () => "text-emerald-300")
     .otherwise(() => "text-dusk-50");
+
 const previousSubtitleHint = (
   <div className="items-center hidden gap-2 lg:flex">
     <svg

@@ -6,6 +6,8 @@ export default function useKeyboardControls(
   transcript: ReturnType<typeof useTranscript>,
 ) {
   const [showSubtitles, setShowSubtitles] = useState(true);
+  const [fullscreen, setFullscreen] = useState(false);
+
   useEffect(() => {
     const keydown = (e: KeyboardEvent) => {
       if (e.key === "s") setShowSubtitles(false);
@@ -45,6 +47,14 @@ export default function useKeyboardControls(
           videoRef.current!.currentTime = nextDialogue.start;
           e.stopPropagation();
         }
+      } else if (e.key === "f") {
+        if (fullscreen) {
+          exitFullscreen();
+        } else {
+          requestFullscreen();
+        }
+        setFullscreen((prev) => !prev);
+        e.stopPropagation();
       }
     };
     window.addEventListener("keydown", keydown);
@@ -57,5 +67,43 @@ export default function useKeyboardControls(
     };
   }, [transcript?.length]);
 
-  return { showSubtitles };
+  return { showSubtitles, fullscreen };
+}
+
+function requestFullscreen() {
+  // Check if the document is in fullscreen mode
+  if (document.documentElement.requestFullscreen) {
+    document.documentElement.requestFullscreen(); // For most browsers
+    // @ts-ignore:next-line
+  } else if (document.documentElement.mozRequestFullScreen) {
+    // @ts-ignore:next-line
+    document.documentElement.mozRequestFullScreen(); // Firefox
+    // @ts-ignore:next-line
+  } else if (document.documentElement.webkitRequestFullscreen) {
+    // @ts-ignore:next-line
+    document.documentElement.webkitRequestFullscreen(); // Safari
+    // @ts-ignore:next-line
+  } else if (document.documentElement.msRequestFullscreen) {
+    // @ts-ignore:next-line
+    document.documentElement.msRequestFullscreen(); // IE/Edge
+  }
+}
+
+function exitFullscreen() {
+  // Check if the document is in fullscreen mode
+  if (document.exitFullscreen) {
+    document.exitFullscreen(); // For most browsers
+    // @ts-ignore:next-line
+  } else if (document.mozCancelFullScreen) {
+    // @ts-ignore:next-line
+    document.mozCancelFullScreen(); // Firefox
+    // @ts-ignore:next-line
+  } else if (document.webkitExitFullscreen) {
+    // @ts-ignore:next-line
+    document.webkitExitFullscreen(); // Safari and Chrome
+    // @ts-ignore:next-line
+  } else if (document.msExitFullscreen) {
+    // @ts-ignore:next-line
+    document.msExitFullscreen(); // IE/Edge
+  }
 }
