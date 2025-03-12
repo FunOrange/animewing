@@ -34,9 +34,7 @@ export default function Home() {
             to={`/${anime}`}
             className="text-inherit overflow-y-auto border-r shadow-md border-dusk-800 hover:bg-dusk-400 hover:text-pink-300 transition-colors"
           >
-            <div className="hidden p-2 lg:block bg-black/50 line-clamp-1">
-              {title}
-            </div>
+            <div className="p-2 bg-black/50 line-clamp-1">{title}</div>
           </Link>
         ))}
     </div>
