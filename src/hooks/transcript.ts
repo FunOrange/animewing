@@ -72,7 +72,7 @@ const processSrt = (data?: string) =>
         index,
         Start: toSeconds(timeMatch[1]),
         End: toSeconds(timeMatch[2]),
-        Text: lines.slice(2).join(" "),
+        Text: lines.slice(2).join(" ").replace(/\{.+}/g, ""),
       };
     });
 const toSeconds = (time: string /* 0:01:43.83 */) => {

@@ -89,6 +89,19 @@ export const listing: Record<string, AnimeMetadata> = {
     ],
     positionY: "7%",
   },
+  "sousou-no-frieren": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/sousou-no-frieren/${episode}/master.m3u8`,
+    title: "Frieren: Beyond Journey's End",
+    subtitlePath: (episode: number) =>
+      `/subs/sousou-no-frieren/Frieren_.Beyond.Journey's.End.S01E${pad2(episode)}.WEBRip.Netflix.ja[cc].srt`,
+    episodes: [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+      22, 23, 24, 25, 26,
+    ],
+    offsetSeconds: -1.0,
+    positionY: "7%",
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
