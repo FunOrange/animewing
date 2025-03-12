@@ -137,7 +137,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Gosick",
     subtitlePath: (episode: number) =>
       `/subs/gosick/Gosick.S01E${pad2(episode)}.CC.ja.srt`,
-    episodes: new Array(25).fill(1).map((_, i) => i + 1),
+    episodes: new Array(24).fill(1).map((_, i) => i + 1),
     positionY: "5%",
   },
 };
