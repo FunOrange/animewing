@@ -1,7 +1,5 @@
 import { match } from "ts-pattern";
 
-export type Anime = "nhk-ni-youkoso" | "hotaru-no-haka" | "death-note";
-
 export interface AnimeMetadata {
   m3u8: (episode: number) => string;
   title: string;
@@ -10,7 +8,7 @@ export interface AnimeMetadata {
   offsetY?: string;
 }
 
-export const listing: Record<Anime, AnimeMetadata> = {
+export const listing: Record<string, AnimeMetadata> = {
   "nhk-ni-youkoso": {
     m3u8: (episode: number) =>
       `https://hlsx3cdn.echovideo.to/welcome-to-the-nhk/${episode}/master.m3u8`,

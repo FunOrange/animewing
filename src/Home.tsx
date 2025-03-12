@@ -7,6 +7,14 @@ export default function Home() {
 
   return (
     <div className="flex flex-col w-full h-screen max-w-screen-2xl">
+      <div className="px-4 py-3">
+        <h1 className="text-pink-300 text-2xl font-bold">welcome</h1>
+        <p>
+          Learn japanese with anime! We recommend installing{" "}
+          <a href="https://yomitan.wiki/">yomitan</a> for quick dictionary
+          lookups
+        </p>
+      </div>
       <input
         className="w-full px-4 py-2 text-lg font-mono border-2 border-dusk-400 bg-dusk-800"
         placeholder="Search..."

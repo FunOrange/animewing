@@ -9,10 +9,9 @@ import { Anime, AnimeMetadata } from "./listing";
 import { Link } from "react-router-dom";
 
 export interface WatchProps {
-  anime: Anime;
   metadata: AnimeMetadata;
 }
-export default function Watch({ anime, metadata }: WatchProps) {
+export default function Watch({ metadata }: WatchProps) {
   const [currentEpisode, _setCurrentEpisode] = useState(1);
   const setCurrentEpisode = (episode: number) => _setCurrentEpisode(episode);
 
