@@ -93,7 +93,7 @@ export default function Watch({ metadata }: WatchProps) {
             </div>
           )}
 
-          <video ref={videoRef} controls width="100%" />
+          <video ref={videoRef} autoPlay controls width="100%" />
         </div>
 
         <div className="p-4 overflow-y-auto">
