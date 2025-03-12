@@ -15,13 +15,16 @@ export default function Home() {
           lookups
         </p>
       </div>
-      <input
-        className="w-full px-4 py-2 text-lg font-mono border-2 border-dusk-400 bg-dusk-800"
-        placeholder="Search..."
-        value={searchString}
-        onChange={(e) => setSearchString(e.target.value)}
-      />
+      <div className="bg-black/50 p-2">
+        <input
+          className="w-full px-3 py-2 text-sm font-mono border-2 rounded-lg border-dusk-500 bg-dusk-900 max-w-[400px]"
+          placeholder="Search..."
+          value={searchString}
+          onChange={(e) => setSearchString(e.target.value)}
+        />
+      </div>
       {Object.entries(listing)
+        .sort((a, b) => a[1].title.localeCompare(b[1].title))
         .filter(([_, { title }]) =>
           title.toLowerCase().includes(searchString.toLowerCase()),
         )
