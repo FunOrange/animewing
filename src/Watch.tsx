@@ -66,9 +66,12 @@ export default function Watch({ anime, metadata }: WatchProps) {
         <div className="relative">
           {/* subtitle overlay */}
           {showSubtitles && (
-            <div className="absolute z-10 flex flex-col items-center w-full gap-2 pointer-events-none bottom-4 md:bottom-8 2xl:bottom-14">
+            <div
+              className="absolute z-10 flex flex-col items-center w-full gap-2 pointer-events-none"
+              style={{ bottom: metadata.offsetY ?? "10%" }}
+            >
               {currentSubtitles
-                ?.sort((a, b) => b.MarginV - a.MarginV)
+                ?.sort((a, b) => (b as any).MarginV - (a as any).MarginV)
                 ?.map((subtitle, i) => (
                   <div
                     className="flex items-center gap-4 max-w-[80%] min-w-[55%]"
