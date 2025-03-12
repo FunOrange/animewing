@@ -102,6 +102,19 @@ export const listing: Record<string, AnimeMetadata> = {
     offsetSeconds: -1.0,
     positionY: "7%",
   },
+  "steins-gate": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/steinsgate/${episode}/master.m3u8`,
+    title: "Steins;Gate",
+    subtitlePath: (episode: number) =>
+      `/subs/steins-gate/STEINS;GATE.S01E${pad2(episode)}.JA.srt`,
+    episodes: [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+      22, 23, 24, 25,
+    ],
+    offsetSeconds: -1.0,
+    positionY: "7%",
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
