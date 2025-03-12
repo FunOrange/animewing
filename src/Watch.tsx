@@ -5,7 +5,7 @@ import useHls from "./hooks/hls";
 import useCurrentVideoTime from "./hooks/current-video-time";
 import useTranscript from "./hooks/transcript";
 import useKeyboardControls from "./hooks/keyboard-controls";
-import { Anime, AnimeMetadata } from "./listing";
+import { AnimeMetadata } from "./listing";
 import { Link } from "react-router-dom";
 
 export interface WatchProps {
@@ -18,7 +18,14 @@ export default function Watch({ metadata }: WatchProps) {
   const videoRef = useHls(metadata.m3u8(currentEpisode));
   const currentSeconds = useCurrentVideoTime(videoRef);
 
-  const transcript = useTranscript(metadata.subtitlePath(currentEpisode));
+  const transcript = (() => {
+    const transcript = useTranscript(metadata.subtitlePath(currentEpisode));
+    return transcript?.map((e) => ({
+      ...e,
+      Start: e.Start + (metadata.offsetSeconds ?? 0),
+      End: e.End + (metadata.offsetSeconds ?? 0),
+    }));
+  })();
   const currentSubtitles = transcript?.filter(
     (t) => t.Start <= currentSeconds && t.End >= currentSeconds,
   );
@@ -67,7 +74,7 @@ export default function Watch({ metadata }: WatchProps) {
           {showSubtitles && (
             <div
               className="absolute z-10 flex flex-col items-center w-full gap-2 pointer-events-none"
-              style={{ bottom: metadata.offsetY ?? "10%" }}
+              style={{ bottom: metadata.positionY ?? "10%" }}
             >
               {currentSubtitles
                 ?.sort((a, b) => (b as any).MarginV - (a as any).MarginV)

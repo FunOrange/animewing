@@ -17,17 +17,15 @@ export default function useSubtitle(path: string) {
       return processSrt(data);
     }
   }, [data]);
-  (window as any).srt = data;
 
   return dialogue;
 }
 
 const processAss = (data?: string) =>
   data
-    ?.split("\n")
+    ?.split(/\r?\n/)
     ?.filter((line) => line.startsWith("Dialogue"))
     ?.map((line) => {
-      //Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
       const [
         Layer,
         Start,
