@@ -63,7 +63,7 @@ export default function Watch({ anime, metadata }: WatchProps) {
 
       <div className="flex flex-col min-h-0">
         {/* breadcrumb */}
-        <div className="flex items-center self-start gap-2 px-4 py-2">
+        <div className="flex flex-wrap items-center self-start gap-2 px-4 py-2">
           <Link to="/" className="text-inherit hover:text-pink-300">
             Home
           </Link>
@@ -120,7 +120,7 @@ export default function Watch({ anime, metadata }: WatchProps) {
           />
         </div>
 
-        <div className="p-2 flex gap-2 overflow-y-auto">
+        <div className="p-2 flex flex-wrap gap-2 overflow-y-auto">
           {keyboardShortcut("F", "Toggle Fullscreen")}
           {keyboardShortcut("SPACE", "Play/Pause")}
           {keyboardShortcut("SHIFT", "Pause")}
