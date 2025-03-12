@@ -123,6 +123,7 @@ export default function Watch({ anime, metadata }: WatchProps) {
         <div className="p-4 overflow-y-auto">
           Controls:
           <ul>
+            <li>F: Toggle Fullscreen</li>
             <li>Space: Play/Pause</li>
             <li>Shift: Pause</li>
             <li>S: Hide Subtitles</li>

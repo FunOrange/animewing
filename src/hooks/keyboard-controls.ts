@@ -49,8 +49,10 @@ export default function useKeyboardControls(
         }
       } else if (e.key === "f") {
         if (fullscreen) {
+          document.body.style.overflow = "auto";
           exitFullscreen();
         } else {
+          document.body.style.overflow = "hidden";
           requestFullscreen();
         }
         setFullscreen((prev) => !prev);
@@ -65,7 +67,7 @@ export default function useKeyboardControls(
       window.removeEventListener("keyup", keyup);
       window.removeEventListener("keypress", keypress);
     };
-  }, [transcript?.length]);
+  }, [transcript?.length, fullscreen]);
 
   return { showSubtitles, fullscreen };
 }
