@@ -33,7 +33,7 @@ function App() {
                 <Helmet>
                   <title>animewing | {metadata.title}</title>
                 </Helmet>
-                <Watch metadata={metadata} />
+                <Watch anime={anime} metadata={metadata} />
               </>
             }
           />

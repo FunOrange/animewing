@@ -3,15 +3,17 @@ import { useState } from "react";
 import { cn } from "./utils";
 import useHls from "./hooks/hls";
 import useCurrentVideoTime from "./hooks/current-video-time";
-import useTranscript from "./hooks/transcript";
+import useTranscript, { Token } from "./hooks/transcript";
 import useKeyboardControls from "./hooks/keyboard-controls";
 import { AnimeMetadata } from "./listing";
 import { Link } from "react-router-dom";
+import { match, P } from "ts-pattern";
 
 export interface WatchProps {
+  anime: string;
   metadata: AnimeMetadata;
 }
-export default function Watch({ metadata }: WatchProps) {
+export default function Watch({ anime, metadata }: WatchProps) {
   const [currentEpisode, _setCurrentEpisode] = useState(1);
   const setCurrentEpisode = (episode: number) => _setCurrentEpisode(episode);
 
@@ -19,18 +21,15 @@ export default function Watch({ metadata }: WatchProps) {
   const currentSeconds = useCurrentVideoTime(videoRef);
 
   const transcript = (() => {
-    const transcript = useTranscript(
-      metadata.subtitlePath(currentEpisode),
-      metadata.lineEndings,
-    );
+    const transcript = useTranscript({ anime, episode: currentEpisode });
     return transcript?.map((e) => ({
       ...e,
-      Start: e.Start + (metadata.offsetSeconds ?? 0),
-      End: e.End + (metadata.offsetSeconds ?? 0),
+      start: e.start + (metadata.offsetSeconds ?? 0),
+      end: e.end + (metadata.offsetSeconds ?? 0),
     }));
   })();
   const currentSubtitles = transcript?.filter(
-    (t) => t.Start <= currentSeconds && t.End >= currentSeconds,
+    (t) => t.start <= currentSeconds && t.end >= currentSeconds,
   );
 
   const { showSubtitles } = useKeyboardControls(videoRef, transcript);
@@ -88,7 +87,12 @@ export default function Watch({ metadata }: WatchProps) {
                   >
                     {previousSubtitleHint}
                     <div className="w-full whitespace-pre-line px-3 py-2 text-center text-white border-2 pointer-events-auto md:px-6 md:py-4 2xl:py-8 text-md md:text-xl xl:text-3xl 2xl:text-4xl border-dusk-500 bg-black/70 backdrop-blur-2xl rounded-xl">
-                      {subtitle.Text}
+                      {subtitle.tokens.map((token, i) => (
+                        <span key={i} className={posStyles(token.pos)}>
+                          {token.surface}
+                        </span>
+                      ))}
+                      {/* {subtitle.text} */}
                     </div>
                     <div className="hidden w-16 lg:block" />
                   </div>
@@ -120,6 +124,37 @@ export default function Watch({ metadata }: WatchProps) {
   );
 }
 
+const posStyles = (pos: Token["pos"]) =>
+  match(pos)
+    // nouns
+    .with(["名詞", "一般", "*", "*"], () => "text-blue-400")
+    .with(["名詞", "形容動詞語幹", "*", "*"], () => "text-blue-400")
+    .with(["名詞", "副詞可能", "*", "*"], () => "text-blue-400")
+    .with(["名詞", "代名詞", "一般", "*"], () => "text-blue-400")
+    .with(["助詞", "副助詞／並立助詞／終助詞", "*", "*"], () => "text-blue-300")
+    .with(["名詞", "非自立", "副詞可能", "*"], () => "text-blue-400")
+    .with(["連体詞", "*", "*", "*"], () => "text-blue-300")
+    .with(["名詞", "接尾", "一般", "*"], () => "text-blue-300")
+    .with(["名詞", "サ変接続", "*", "*"], () => "text-blue-400")
+    // adjectives/adverbs
+    .with(["形容詞", "自立", "*", "*"], () => "text-pink-400")
+    .with(["形容詞", "非自立", "*", "*"], () => "text-pink-400")
+    .with(["副詞", "一般", "*", "*"], () => "text-pink-400")
+    // verbs
+    .with(["動詞", "自立", "*", "*"], () => "text-purple-400")
+    .with(["助動詞", "*", "*", "*"], () => "text-purple-300")
+    .with(["助詞", "接続助詞", "*", "*"], () => "text-purple-300")
+    .with(["動詞", "接尾", "*", "*"], () => "text-purple-300")
+    .with(["動詞", "非自立", "*", "*"], () => "text-purple-300")
+    // particles
+    .with(["助詞", "係助詞", "*", "*"], () => "text-orange-300")
+    .with(["助詞", "格助詞", "一般", "*"], () => "text-orange-300")
+    .with(["助詞", "連体化", "*", "*"], () => "text-orange-300")
+    // names
+    .with(["名詞", "固有名詞", "人名", "姓"], () => "text-emerald-300")
+    .with(["名詞", "固有名詞", "地域", "一般"], () => "text-emerald-300")
+    .with(["名詞", "固有名詞", "人名", "名"], () => "text-emerald-300")
+    .otherwise(() => "text-dusk-50");
 const previousSubtitleHint = (
   <div className="items-center hidden gap-2 lg:flex">
     <svg

@@ -3,7 +3,7 @@ import useTranscript from "./transcript";
 
 export default function useKeyboardControls(
   videoRef: RefObject<HTMLVideoElement | null>,
-  transcript: ReturnType<typeof useTranscript>
+  transcript: ReturnType<typeof useTranscript>,
 ) {
   const [showSubtitles, setShowSubtitles] = useState(true);
   useEffect(() => {
@@ -26,18 +26,23 @@ export default function useKeyboardControls(
       } else if (e.key === "a") {
         const offset = 0.5;
         const previousDialogue = transcript
-          ?.filter((dialogue) => dialogue.Start < videoRef.current!.currentTime - offset || 0)
-          ?.sort((a, b) => b.Start - a.Start)[0];
+          ?.filter(
+            (dialogue) =>
+              dialogue.start < videoRef.current!.currentTime - offset || 0,
+          )
+          ?.sort((a, b) => b.start - a.start)[0];
         if (previousDialogue) {
-          videoRef.current!.currentTime = previousDialogue.Start;
+          videoRef.current!.currentTime = previousDialogue.start;
           e.stopPropagation();
         }
       } else if (e.key === "d") {
         const nextDialogue = transcript
-          ?.filter((dialogue) => dialogue.Start > videoRef.current!.currentTime || 0)
-          ?.sort((a, b) => a.Start - b.Start)[0];
+          ?.filter(
+            (dialogue) => dialogue.start > videoRef.current!.currentTime || 0,
+          )
+          ?.sort((a, b) => a.start - b.start)[0];
         if (nextDialogue) {
-          videoRef.current!.currentTime = nextDialogue.Start;
+          videoRef.current!.currentTime = nextDialogue.start;
           e.stopPropagation();
         }
       }
