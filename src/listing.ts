@@ -65,6 +65,18 @@ export const listing: Record<string, AnimeMetadata> = {
     positionY: "5%",
     offsetSeconds: -0.2,
   },
+  "shingeki-no-kyojin-s1": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/shingeki-no-kyojin/${episode}/master.m3u8`,
+    title: "Attack on Titan - Season 1",
+    subtitlePath: (episode: number) =>
+      `/subs/shingeki-no-kyojin/Shingeki no Kyojin S1 - ${pad2(episode)}.ass`,
+    episodes: [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+      22, 23, 24, 25,
+    ],
+    positionY: "5%",
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
