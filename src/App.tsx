@@ -4,6 +4,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import Watch from "./Watch";
 import Home from "./Home";
 import { listing } from "./listing";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
@@ -27,7 +28,14 @@ function App() {
           <Route
             key={i}
             path={`/${anime}`}
-            element={<Watch anime={anime} metadata={metadata} />}
+            element={
+              <>
+                <Helmet>
+                  <title>animewing | {metadata.title}</title>
+                </Helmet>
+                <Watch metadata={metadata} />
+              </>
+            }
           />
         ))}
       </Routes>
