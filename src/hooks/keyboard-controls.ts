@@ -52,6 +52,9 @@ export default function useKeyboardControls(
           document.body.style.overflow = "auto";
           exitFullscreen();
         } else {
+          document.body.scrollTo(0, 0);
+          window.scrollTo(0, 0);
+          document.documentElement.scrollTo(0, 0);
           document.body.style.overflow = "hidden";
           requestFullscreen();
         }

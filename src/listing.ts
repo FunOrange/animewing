@@ -139,6 +139,7 @@ export const listing: Record<string, AnimeMetadata> = {
       `/subs/gosick/Gosick.S01E${pad2(episode)}.CC.ja.srt`,
     episodes: new Array(24).fill(1).map((_, i) => i + 1),
     positionY: "5%",
+    offsetSeconds: -0.5,
   },
 };
 

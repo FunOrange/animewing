@@ -114,22 +114,19 @@ export default function Watch({ anime, metadata }: WatchProps) {
           <video
             ref={videoRef}
             autoPlay
-            className="aspect-video"
+            className="aspect-video focus:outline-none focus:ring-0"
             controls
             width="100%"
           />
         </div>
 
-        <div className="p-4 overflow-y-auto">
-          Controls:
-          <ul>
-            <li>F: Toggle Fullscreen</li>
-            <li>Space: Play/Pause</li>
-            <li>Shift: Pause</li>
-            <li>S: Hide Subtitles</li>
-            <li>A: Go to previous subtitle</li>
-            <li>D: Go to next subtitle</li>
-          </ul>
+        <div className="p-2 flex gap-2 overflow-y-auto">
+          {keyboardShortcut("F", "Toggle Fullscreen")}
+          {keyboardShortcut("SPACE", "Play/Pause")}
+          {keyboardShortcut("SHIFT", "Pause")}
+          {keyboardShortcut("S", "Hide Subtitles")}
+          {keyboardShortcut("A", "Go to previous subtitle")}
+          {keyboardShortcut("D", "Go to next subtitle")}
         </div>
       </div>
     </div>
@@ -167,6 +164,15 @@ const posStyles = (pos: Token["pos"]) =>
     .with(["名詞", "固有名詞", "地域", "一般"], () => "text-emerald-300")
     .with(["名詞", "固有名詞", "人名", "名"], () => "text-emerald-300")
     .otherwise(() => "text-dusk-50");
+
+const keyboardShortcut = (key: string, text: string) => (
+  <div className="flex items-center gap-2 pr-2 bg-dusk-500 border border-dusk-400 shadow rounded text-xs">
+    <div className="py-1 px-2 bg-dusk-700 font-mono text-dusk-100 rounded">
+      {key}
+    </div>
+    {text}
+  </div>
+);
 
 const previousSubtitleHint = (
   <div className="items-center hidden gap-2 lg:flex">
