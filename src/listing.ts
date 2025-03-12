@@ -5,6 +5,7 @@ export interface AnimeMetadata {
   episodes: number[];
   positionY?: string;
   offsetSeconds?: number;
+  lineEndings?: "crlf" | "lf";
 }
 
 export const listing: Record<string, AnimeMetadata> = {
@@ -100,6 +101,35 @@ export const listing: Record<string, AnimeMetadata> = {
     episodes: new Array(74).fill(1).map((_, i) => i + 1),
     offsetSeconds: -1.0,
     positionY: "4%",
+  },
+  "hajime-no-ippo": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/hajime-no-ippo-/${episode}/master.m3u8`,
+    title: "Hajime no Ippo",
+    subtitlePath: (episode: number) =>
+      `/subs/hajime-no-ippo/Hajime no Ippo - S01E${pad2(episode)}.jp.srt`,
+    episodes: new Array(75).fill(1).map((_, i) => i + 1),
+    offsetSeconds: -4.0,
+    positionY: "4%",
+    lineEndings: "lf",
+  },
+  "bocchi-the-rock": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/bocchi-the-rock/${episode}/master.m3u8`,
+    title: "Bocchi the Rock",
+    subtitlePath: (episode: number) =>
+      `/subs/bocchi-the-rock/E${pad2(episode)}.srt`,
+    episodes: new Array(12).fill(1).map((_, i) => i + 1),
+    positionY: "5%",
+  },
+  "sword-art-online": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/sword-art-online/${episode}/master.m3u8`,
+    title: "Sword Art Online",
+    subtitlePath: (episode: number) =>
+      `/subs/sword-art-online/Sword Art Online.S01E${pad2(episode)}.CC.ja.srt`,
+    episodes: new Array(25).fill(1).map((_, i) => i + 1),
+    positionY: "5%",
   },
 };
 

@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import useSWR from "swr";
 
-export default function useSubtitle(path: string) {
+export default function useSubtitle(path: string, lineEndings?: "crlf" | "lf") {
   const { data } = useSWR(path, () => fetch(path).then((res) => res.text()), {
     revalidateOnFocus: false,
     revalidateOnReconnect: false,
@@ -14,7 +14,7 @@ export default function useSubtitle(path: string) {
     if (path.endsWith(".ass")) {
       return processAss(data);
     } else if (path.endsWith(".srt")) {
-      return processSrt(data);
+      return processSrt(data, lineEndings);
     }
   }, [data]);
 
@@ -38,6 +38,10 @@ const processAss = (data?: string) =>
         Effect,
         ...Text
       ] = line.trim().split(",");
+      const toSeconds = (time: string /* 0:01:43.83 */) => {
+        const [h, m, s, cs] = time.split(/\.|:/).map((x) => parseInt(x));
+        return h * 3600 + m * 60 + s + cs / 100;
+      };
       return {
         Layer,
         Start: toSeconds(Start),
@@ -53,17 +57,24 @@ const processAss = (data?: string) =>
     })
     ?.filter((e) => !e.Style.startsWith("OP_") && !e.Style.startsWith("ED_"));
 
-const processSrt = (data?: string) =>
+const blockSeparator = (lineEndings?: "crlf" | "lf") =>
+  lineEndings === "lf" ? /\n\n/ : /\r?\n\r?\n/;
+const lineSeparator = (lineEndings?: "crlf" | "lf") =>
+  lineEndings === "lf" ? /\n/ : /\r?\n/;
+
+const processSrt = (data?: string, lineEndings?: "crlf" | "lf") =>
   data
     ?.trim()
-    ?.split(/\r?\n\r?\n/) // Split by blank lines
-    ?.map((block, i) => {
-      const lines = block.split(/\r?\n/);
-      const index = parseInt(lines[0], 10);
-      const timeMatch = lines[1].match(
+    ?.split(blockSeparator(lineEndings))
+    ?.map((block) => {
+      const [_index, _timestamp, ..._text] = block.split(
+        lineSeparator(lineEndings),
+      );
+      const index = parseInt(_index, 10);
+      const timeMatch = _timestamp.match(
         /(\d{2}:\d{2}:\d{2},\d{3}) --> (\d{2}:\d{2}:\d{2},\d{3})/,
       );
-      if (!timeMatch) throw new Error("Invalid time format: " + lines[1]);
+      if (!timeMatch) throw new Error("Invalid time format: " + _timestamp);
       const toSeconds = (time: string /* 00:00:00,000 */) => {
         const [h, m, s, ms] = time.split(/:|,/).map((x) => parseInt(x));
         return h * 3600 + m * 60 + s + ms / 1000;
@@ -72,10 +83,10 @@ const processSrt = (data?: string) =>
         index,
         Start: toSeconds(timeMatch[1]),
         End: toSeconds(timeMatch[2]),
-        Text: lines.slice(2).join(" ").replace(/\{.+}/g, ""),
+        Text: _text
+          .map((s) => s.trim())
+          .join("\n")
+          .replace(/\{.+}/g, "")
+          .replace(/\<.+?>/g, ""),
       };
     });
-const toSeconds = (time: string /* 0:01:43.83 */) => {
-  const [h, m, s, cs] = time.split(/\.|:/).map((x) => parseInt(x));
-  return h * 3600 + m * 60 + s + cs / 100;
-};

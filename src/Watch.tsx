@@ -19,7 +19,10 @@ export default function Watch({ metadata }: WatchProps) {
   const currentSeconds = useCurrentVideoTime(videoRef);
 
   const transcript = (() => {
-    const transcript = useTranscript(metadata.subtitlePath(currentEpisode));
+    const transcript = useTranscript(
+      metadata.subtitlePath(currentEpisode),
+      metadata.lineEndings,
+    );
     return transcript?.map((e) => ({
       ...e,
       Start: e.Start + (metadata.offsetSeconds ?? 0),
@@ -84,7 +87,7 @@ export default function Watch({ metadata }: WatchProps) {
                     key={i}
                   >
                     {previousSubtitleHint}
-                    <div className="w-full px-3 py-2 text-center text-white border-2 pointer-events-auto md:px-6 md:py-4 2xl:py-8 text-md md:text-xl xl:text-3xl 2xl:text-4xl border-dusk-500 bg-black/70 backdrop-blur-2xl rounded-xl ">
+                    <div className="w-full whitespace-pre-line px-3 py-2 text-center text-white border-2 pointer-events-auto md:px-6 md:py-4 2xl:py-8 text-md md:text-xl xl:text-3xl 2xl:text-4xl border-dusk-500 bg-black/70 backdrop-blur-2xl rounded-xl">
                       {subtitle.Text}
                     </div>
                     <div className="hidden w-16 lg:block" />
