@@ -14,10 +14,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Welcome to the NHK",
     subtitlePath: (episode: number) =>
       `/subs/nhk-ni-youkoso/Welcome to the NHK - ${pad2(episode)} [DVDRip 1280x720 x264 FLAC].ass`,
-    episodes: [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-      22, 23, 24,
-    ],
+    episodes: new Array(24).fill(1).map((_, i) => i + 1),
     positionY: "8%",
   },
   "hotaru-no-haka": {
@@ -34,10 +31,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Death Note",
     subtitlePath: (episode: number) =>
       `/subs/death-note/Death.Note.S01E${pad2(episode)}.jpn.srt`,
-    episodes: [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-      22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,
-    ],
+    episodes: new Array(37).fill(1).map((_, i) => i + 1),
   },
   clannad: {
     m3u8: (episode: number) =>
@@ -45,10 +39,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Clannad",
     subtitlePath: (episode: number) =>
       `/subs/clannad/Clannad_${pad3(episode)}.ass`,
-    episodes: [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-      22, 23, 24,
-    ],
+    episodes: new Array(24).fill(1).map((_, i) => i + 1),
     positionY: "5%",
     offsetSeconds: -0.4,
   },
@@ -58,10 +49,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Clannad After Story",
     subtitlePath: (episode: number) =>
       `/subs/clannad-after-story/Clannad_After_Story_${pad3(episode)}.ass`,
-    episodes: [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-      22, 23, 24, 25,
-    ],
+    episodes: new Array(25).fill(1).map((_, i) => i + 1),
     positionY: "5%",
     offsetSeconds: -0.2,
   },
@@ -71,10 +59,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Attack on Titan - Season 1",
     subtitlePath: (episode: number) =>
       `/subs/shingeki-no-kyojin/Shingeki no Kyojin S1 - ${pad2(episode)}.ass`,
-    episodes: [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-      22, 23, 24, 25,
-    ],
+    episodes: new Array(25).fill(1).map((_, i) => i + 1),
     positionY: "5%",
   },
   "vinland-saga-s1": {
@@ -83,10 +68,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Vinland Saga - Season 1",
     subtitlePath: (episode: number) =>
       `/subs/vinland-saga/[SFSM] Vinland Saga - ${pad2(episode)} - JPN.ass`,
-    episodes: [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-      22, 23, 24,
-    ],
+    episodes: new Array(24).fill(1).map((_, i) => i + 1),
     positionY: "7%",
   },
   "sousou-no-frieren": {
@@ -95,10 +77,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Frieren: Beyond Journey's End",
     subtitlePath: (episode: number) =>
       `/subs/sousou-no-frieren/Frieren_.Beyond.Journey's.End.S01E${pad2(episode)}.WEBRip.Netflix.ja[cc].srt`,
-    episodes: [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-      22, 23, 24, 25, 26,
-    ],
+    episodes: new Array(26).fill(1).map((_, i) => i + 1),
     offsetSeconds: -1.0,
     positionY: "7%",
   },
@@ -108,12 +87,19 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Steins;Gate",
     subtitlePath: (episode: number) =>
       `/subs/steins-gate/STEINS;GATE.S01E${pad2(episode)}.JA.srt`,
-    episodes: [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-      22, 23, 24, 25,
-    ],
+    episodes: new Array(25).fill(1).map((_, i) => i + 1),
     offsetSeconds: -1.0,
     positionY: "7%",
+  },
+  monster: {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/monster/${episode}/master.m3u8`,
+    title: "Monster",
+    subtitlePath: (episode: number) =>
+      `/subs/monster/Monster S01E${pad2(episode)}.srt`,
+    episodes: new Array(74).fill(1).map((_, i) => i + 1),
+    offsetSeconds: -1.0,
+    positionY: "4%",
   },
 };
 
