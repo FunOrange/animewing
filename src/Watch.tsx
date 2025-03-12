@@ -83,9 +83,9 @@ export default function Watch({ anime, metadata }: WatchProps) {
         >
           {/* subtitle overlay */}
           {showSubtitles && (
-            <div className="absolute z-10 w-full aspect-video">
+            <div className="absolute z-10 w-full aspect-video pointer-events-none">
               <div
-                className="absolute z-10 flex flex-col items-center w-full gap-2 pointer-events-none"
+                className="absolute z-10 flex flex-col items-center w-full gap-2"
                 style={{ bottom: metadata.positionY ?? "10%" }}
               >
                 {currentSubtitles
