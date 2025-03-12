@@ -1,0 +1,33 @@
+import React, { useState } from "react";
+import { listing } from "./listing";
+import { Link } from "react-router-dom";
+
+export default function Home() {
+  const [searchString, setSearchString] = useState("");
+
+  return (
+    <div className="flex flex-col w-full h-screen max-w-screen-2xl">
+      <input
+        className="w-full px-4 py-2 text-lg font-mono border-2 border-dusk-400 bg-dusk-800"
+        placeholder="Search..."
+        value={searchString}
+        onChange={(e) => setSearchString(e.target.value)}
+      />
+      {Object.entries(listing)
+        .filter(([_, { title }]) =>
+          title.toLowerCase().includes(searchString.toLowerCase()),
+        )
+        .map(([anime, { title }], i) => (
+          <Link
+            key={i}
+            to={`/${anime}`}
+            className="text-inherit overflow-y-auto border-r shadow-md border-dusk-800 hover:bg-dusk-400 hover:text-pink-300 transition-colors"
+          >
+            <div className="hidden p-2 lg:block bg-black/50 line-clamp-1">
+              {title}
+            </div>
+          </Link>
+        ))}
+    </div>
+  );
+}
