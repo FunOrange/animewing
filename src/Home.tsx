@@ -11,8 +11,10 @@ export default function Home() {
         <h1 className="text-pink-300 text-2xl font-bold">welcome</h1>
         <p>
           Learn japanese with anime! We recommend installing{" "}
-          <a href="https://yomitan.wiki/">yomitan</a> for quick dictionary
-          lookups
+          <a href="https://chromewebstore.google.com/detail/10ten-japanese-reader-rik/pnmaklegiibbioifkmfkgpfnmdehdfan?hl=en">
+            10ten
+          </a>{" "}
+          for quick dictionary lookups
         </p>
       </div>
       <div className="bg-black/50 p-2">
