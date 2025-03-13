@@ -95,12 +95,20 @@ async function main() {
   for (const [anime, metadata] of Object.entries(listing)) {
     for (const episode of metadata.episodes) {
       const metadata = listing[anime];
-      const path = join(".", metadata.subtitlePath(episode));
-      const data = readFileSync(path, "utf8");
+
+      const outputDir = join(".", "public", "subs", anime);
+      const outputPath = join(outputDir, `${anime}-${pad2(episode)}.json`);
+      if (existsSync(outputPath)) {
+        console.log("Skipping: ", metadata.subtitlePath(episode));
+        continue;
+      }
+
+      const inputPath = join(".", metadata.subtitlePath(episode));
+      const data = readFileSync(inputPath, "utf8");
       const dialogue = (() => {
-        if (path.endsWith(".ass")) {
+        if (inputPath.endsWith(".ass")) {
           return processAss(data);
-        } else if (path.endsWith(".srt")) {
+        } else if (inputPath.endsWith(".srt")) {
           return processSrt(data, metadata.lineEndings);
         }
       })();
@@ -109,14 +117,10 @@ async function main() {
         e.tokens = await tokenize(e.text);
       }
 
-      const dir = join(".", "public", "subs", anime);
-      if (!existsSync(dir)) {
-        mkdirSync(dir, { recursive: true });
+      if (!existsSync(outputDir)) {
+        mkdirSync(outputDir, { recursive: true });
       }
-      writeFileSync(
-        join(dir, `${anime}-${pad2(episode)}.json`),
-        JSON.stringify(dialogue, null, 2),
-      );
+      writeFileSync(outputPath, JSON.stringify(dialogue, null, 2));
     }
   }
 }

@@ -141,6 +141,16 @@ export const listing: Record<string, AnimeMetadata> = {
     positionY: "5%",
     offsetSeconds: -0.5,
   },
+  "usagi-drop": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/usagi-drop/${episode}/master.m3u8`,
+    title: "Usagi Drop",
+    subtitlePath: (episode: number) =>
+      `/subs/usagi-drop/Usagi Drop  (${episode}).jp.srt`,
+    episodes: new Array(11).fill(1).map((_, i) => i + 1),
+    positionY: "5%",
+    offsetSeconds: 0.0,
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
