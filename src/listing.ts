@@ -88,7 +88,7 @@ export const listing: Record<string, AnimeMetadata> = {
     title: "Steins;Gate",
     subtitlePath: (episode: number) =>
       `/subs/steins-gate/STEINS;GATE.S01E${pad2(episode)}.JA.srt`,
-    episodes: new Array(25).fill(1).map((_, i) => i + 1),
+    episodes: new Array(24).fill(1).map((_, i) => i + 1),
     offsetSeconds: -1.0,
     positionY: "7%",
   },

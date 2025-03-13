@@ -28,6 +28,7 @@ export default function Watch({ anime, metadata }: WatchProps) {
       end: e.end + (metadata.offsetSeconds ?? 0),
     }));
   })();
+  console.log(transcript?.[27]);
   const currentSubtitles = transcript?.filter(
     (t) => t.start <= currentSeconds && t.end >= currentSeconds,
   );

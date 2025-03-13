@@ -95,7 +95,7 @@ async function main() {
   for (const [anime, metadata] of Object.entries(listing)) {
     for (const episode of metadata.episodes) {
       const metadata = listing[anime];
-      const path = join(".", metadata.subtitlePath(1));
+      const path = join(".", metadata.subtitlePath(episode));
       const data = readFileSync(path, "utf8");
       const dialogue = (() => {
         if (path.endsWith(".ass")) {
@@ -104,7 +104,7 @@ async function main() {
           return processSrt(data, metadata.lineEndings);
         }
       })();
-      console.log("Tokenizing ", anime, episode);
+      console.log("Tokenizing ", metadata.subtitlePath(episode));
       for (const e of dialogue!) {
         e.tokens = await tokenize(e.text);
       }

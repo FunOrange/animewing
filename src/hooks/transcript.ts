@@ -29,6 +29,7 @@ export default function useSubtitle({
   episode: number;
 }) {
   const path = `/subs/${anime}/${anime}-${pad2(episode)}.json`;
+  console.log(path);
   const { data } = useSWR<Subtitle[]>(
     path,
     () => fetch(path).then((res) => res.json()),
