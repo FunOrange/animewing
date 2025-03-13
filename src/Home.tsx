@@ -6,7 +6,7 @@ export default function Home() {
   const [searchString, setSearchString] = useState("");
 
   return (
-    <div className="flex flex-col w-full h-screen max-w-screen-2xl">
+    <div className="flex flex-col w-full max-w-screen-2xl">
       <div className="px-4 py-3">
         <h1 className="text-pink-300 text-2xl font-bold">welcome</h1>
         <p>

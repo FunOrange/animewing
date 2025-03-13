@@ -8,71 +8,100 @@ export default function useKeyboardControls(
   const [showSubtitles, setShowSubtitles] = useState(true);
   const [fullscreen, setFullscreen] = useState(false);
 
+  const commands = {
+    toggleFullscreen: () => {
+      if (fullscreen) {
+        document.body.style.overflow = "auto";
+        exitFullscreen();
+      } else {
+        document.body.scrollTo(0, 0);
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTo(0, 0);
+        document.body.style.overflow = "hidden";
+        requestFullscreen();
+      }
+      setFullscreen((prev) => !prev);
+    },
+    playPause: () => {
+      if (videoRef.current?.paused) {
+        videoRef.current?.play();
+      } else if (!videoRef.current?.paused) {
+        videoRef.current?.pause();
+      }
+    },
+    play: () => videoRef.current?.play(),
+    pause: () => videoRef.current?.pause(),
+    hideSubtitles: () => setShowSubtitles(false),
+    showSubtitles: () => setShowSubtitles(true),
+    toggleSubtitles: () => setShowSubtitles((prev) => !prev),
+    goToPreviousSubtitle: () => {
+      const offset = 0.5;
+      const previousDialogue = transcript
+        ?.filter(
+          (dialogue) =>
+            dialogue.start < videoRef.current!.currentTime - offset || 0,
+        )
+        ?.sort((a, b) => b.start - a.start)[0];
+      if (previousDialogue) {
+        videoRef.current!.currentTime = previousDialogue.start;
+      }
+    },
+    goToNextSubtitle: () => {
+      const nextDialogue = transcript
+        ?.filter(
+          (dialogue) => dialogue.start > videoRef.current!.currentTime || 0,
+        )
+        ?.sort((a, b) => a.start - b.start)[0];
+      if (nextDialogue) {
+        videoRef.current!.currentTime = nextDialogue.start;
+      }
+    },
+  };
+
   useEffect(() => {
     const keydown = (e: KeyboardEvent) => {
-      if (e.key === "s") setShowSubtitles(false);
-      if (e.key === "Shift") videoRef.current?.pause();
+      if (e.key === "s") commands.hideSubtitles();
+      if (e.key === "Shift") commands.pause();
     };
     const keyup = (e: KeyboardEvent) => {
-      if (e.key === "s") setShowSubtitles(true);
-      if (e.key === "Shift") videoRef.current?.play();
+      if (e.key === "s") commands.showSubtitles();
+      if (e.key === "Shift") commands.play();
     };
     const keypress = (e: KeyboardEvent) => {
       if (e.key === " " && document.activeElement !== videoRef.current) {
-        if (videoRef.current?.paused) {
-          videoRef.current?.play();
-        } else if (!videoRef.current?.paused) {
-          videoRef.current?.pause();
-        }
+        commands.playPause();
         e.stopPropagation();
       } else if (e.key === "a") {
-        const offset = 0.5;
-        const previousDialogue = transcript
-          ?.filter(
-            (dialogue) =>
-              dialogue.start < videoRef.current!.currentTime - offset || 0,
-          )
-          ?.sort((a, b) => b.start - a.start)[0];
-        if (previousDialogue) {
-          videoRef.current!.currentTime = previousDialogue.start;
-          e.stopPropagation();
-        }
-      } else if (e.key === "d") {
-        const nextDialogue = transcript
-          ?.filter(
-            (dialogue) => dialogue.start > videoRef.current!.currentTime || 0,
-          )
-          ?.sort((a, b) => a.start - b.start)[0];
-        if (nextDialogue) {
-          videoRef.current!.currentTime = nextDialogue.start;
-          e.stopPropagation();
-        }
-      } else if (e.key === "f") {
-        if (fullscreen) {
-          document.body.style.overflow = "auto";
-          exitFullscreen();
-        } else {
-          document.body.scrollTo(0, 0);
-          window.scrollTo(0, 0);
-          document.documentElement.scrollTo(0, 0);
-          document.body.style.overflow = "hidden";
-          requestFullscreen();
-        }
-        setFullscreen((prev) => !prev);
+        commands.goToPreviousSubtitle();
         e.stopPropagation();
+      } else if (e.key === "d") {
+        commands.goToNextSubtitle();
+        e.stopPropagation();
+      } else if (e.key === "f") {
+        commands.toggleFullscreen();
+        e.stopPropagation();
+      }
+    };
+    const fullscreenchange = () => {
+      if (document.fullscreenElement === videoRef.current) {
+        console.log("Video is in fullscreen mode");
+        commands.toggleFullscreen();
+        exitFullscreen();
       }
     };
     window.addEventListener("keydown", keydown);
     window.addEventListener("keyup", keyup);
     window.addEventListener("keypress", keypress);
+    document.addEventListener("fullscreenchange", fullscreenchange);
     return () => {
       window.removeEventListener("keydown", keydown);
       window.removeEventListener("keyup", keyup);
       window.removeEventListener("keypress", keypress);
+      document.removeEventListener("fullscreenchange", fullscreenchange);
     };
   }, [transcript?.length, fullscreen]);
 
-  return { showSubtitles, fullscreen };
+  return { showSubtitles, fullscreen, commands };
 }
 
 function requestFullscreen() {

@@ -28,12 +28,11 @@ export default function Watch({ anime, metadata }: WatchProps) {
       end: e.end + (metadata.offsetSeconds ?? 0),
     }));
   })();
-  console.log(transcript?.[27]);
   const currentSubtitles = transcript?.filter(
     (t) => t.start <= currentSeconds && t.end >= currentSeconds,
   );
 
-  const { showSubtitles, fullscreen } = useKeyboardControls(
+  const { showSubtitles, fullscreen, commands } = useKeyboardControls(
     videoRef,
     transcript,
   );
@@ -122,12 +121,24 @@ export default function Watch({ anime, metadata }: WatchProps) {
         </div>
 
         <div className="p-2 flex flex-wrap gap-2 overflow-y-auto">
-          {keyboardShortcut("F", "Toggle Fullscreen")}
-          {keyboardShortcut("SPACE", "Play/Pause")}
-          {keyboardShortcut("SHIFT", "Pause")}
-          {keyboardShortcut("S", "Hide Subtitles")}
-          {keyboardShortcut("A", "Go to previous subtitle")}
-          {keyboardShortcut("D", "Go to next subtitle")}
+          {keyboardShortcut(
+            "F",
+            "Toggle Fullscreen",
+            commands.toggleFullscreen,
+          )}
+          {keyboardShortcut("SPACE", "Play/Pause", commands.playPause)}
+          {keyboardShortcut("SHIFT", "Pause", commands.playPause)}
+          {keyboardShortcut("S", "Hide Subtitles", commands.toggleSubtitles)}
+          {keyboardShortcut(
+            "A",
+            "Go to previous subtitle",
+            commands.goToPreviousSubtitle,
+          )}
+          {keyboardShortcut(
+            "D",
+            "Go to next subtitle",
+            commands.goToNextSubtitle,
+          )}
         </div>
       </div>
     </div>
@@ -166,8 +177,14 @@ const posStyles = (pos: Token["pos"]) =>
     .with(["名詞", "固有名詞", "人名", "名"], () => "text-emerald-300")
     .otherwise(() => "text-dusk-50");
 
-const keyboardShortcut = (key: string, text: string) => (
-  <div className="flex items-center gap-2 pr-2 bg-dusk-500 border border-dusk-400 shadow rounded text-xs">
+const keyboardShortcut = (key: string, text: string, command) => (
+  <div
+    className={cn(
+      "flex items-center gap-2 pr-2 bg-dusk-500 border border-dusk-400 rounded text-xs",
+      "cursor-pointer hover:brightness-125 transition-all",
+    )}
+    onClick={command}
+  >
     <div className="py-1 px-2 bg-dusk-700 font-mono text-dusk-100 rounded">
       {key}
     </div>
