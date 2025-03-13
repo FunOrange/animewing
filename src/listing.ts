@@ -6,6 +6,7 @@ export interface AnimeMetadata {
   positionY?: string;
   offsetSeconds?: number;
   lineEndings?: "crlf" | "lf";
+  aspectRatio?: "16:9" | "4:3";
 }
 
 export const listing: Record<string, AnimeMetadata> = {
@@ -101,6 +102,7 @@ export const listing: Record<string, AnimeMetadata> = {
     episodes: new Array(74).fill(1).map((_, i) => i + 1),
     offsetSeconds: -1.0,
     positionY: "4%",
+    aspectRatio: "4:3",
   },
   "hajime-no-ippo": {
     m3u8: (episode: number) =>

@@ -37,6 +37,9 @@ export default function Watch({ anime, metadata }: WatchProps) {
     transcript,
   );
 
+  const aspectRatio =
+    metadata.aspectRatio === "4:3" ? "aspect-[4/3]" : "aspect-video";
+
   return (
     <div className="grid w-full h-screen max-w-screen-2xl grid-cols-[44px_1fr] lg:grid-cols-[140px_1fr]">
       {/* episode list */}
@@ -83,7 +86,12 @@ export default function Watch({ anime, metadata }: WatchProps) {
         >
           {/* subtitle overlay */}
           {showSubtitles && (
-            <div className="absolute z-10 w-full aspect-video pointer-events-none">
+            <div
+              className={cn(
+                "absolute z-10 w-full pointer-events-none max-h-screen",
+                aspectRatio,
+              )}
+            >
               <div
                 className="absolute z-10 flex flex-col items-center w-full gap-2"
                 style={{ bottom: metadata.positionY ?? "10%" }}
@@ -114,7 +122,10 @@ export default function Watch({ anime, metadata }: WatchProps) {
           <video
             ref={videoRef}
             autoPlay
-            className="aspect-video focus:outline-none focus:ring-0"
+            className={cn(
+              "focus:outline-none focus:ring-0 max-h-screen",
+              aspectRatio,
+            )}
             controls
             width="100%"
           />
