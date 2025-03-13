@@ -8,7 +8,7 @@ import useKeyboardControls from "./hooks/keyboard-controls";
 import { AnimeMetadata } from "./listing";
 import { Link } from "react-router-dom";
 import { match } from "ts-pattern";
-import useRememberProgress from "./hooks/remember-progress";
+import useRememberState from "./hooks/remember-state";
 
 export interface WatchProps {
   anime: string;
@@ -27,9 +27,12 @@ export default function Watch({ anime, metadata }: WatchProps) {
   const currentSeconds = useCurrentVideoTime(videoRef);
   useEffect(() => {
     const progress = localStorage.getItem(`progress.${anime}`) || "null";
-    videoRef.current!.currentTime = JSON.parse(progress)?.seconds;
+    videoRef.current!.currentTime = JSON.parse(progress)?.seconds || 0;
+    videoRef.current!.volume = parseFloat(
+      localStorage.getItem(`preferences.volume`) ?? "1",
+    );
   }, []);
-  useRememberProgress({ anime, currentEpisode, currentSeconds });
+  useRememberState({ videoRef, anime, currentEpisode, currentSeconds });
 
   const transcript = (() => {
     const transcript = useTranscript({ anime, episode: currentEpisode });
