@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { cn } from "./utils";
 import useHls from "./hooks/hls";
@@ -8,17 +8,28 @@ import useKeyboardControls from "./hooks/keyboard-controls";
 import { AnimeMetadata } from "./listing";
 import { Link } from "react-router-dom";
 import { match } from "ts-pattern";
+import useRememberProgress from "./hooks/remember-progress";
 
 export interface WatchProps {
   anime: string;
   metadata: AnimeMetadata;
 }
 export default function Watch({ anime, metadata }: WatchProps) {
-  const [currentEpisode, _setCurrentEpisode] = useState(1);
+  const [currentEpisode, _setCurrentEpisode] = useState(
+    (() => {
+      const progress = localStorage.getItem(`progress.${anime}`);
+      return progress ? JSON.parse(progress).episode : 1;
+    })(),
+  );
   const setCurrentEpisode = (episode: number) => _setCurrentEpisode(episode);
 
   const videoRef = useHls(metadata.m3u8(currentEpisode));
   const currentSeconds = useCurrentVideoTime(videoRef);
+  useEffect(() => {
+    const progress = localStorage.getItem(`progress.${anime}`) || "null";
+    videoRef.current!.currentTime = JSON.parse(progress)?.seconds;
+  }, []);
+  useRememberProgress({ anime, currentEpisode, currentSeconds });
 
   const transcript = (() => {
     const transcript = useTranscript({ anime, episode: currentEpisode });
