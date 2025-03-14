@@ -48,7 +48,7 @@ export default function Watch2Gether({
   }, [currentEpisode]);
 
   useEffect(() => {
-    if (isHost) {
+    if (isHost && viewers > 0) {
       const videoState: VideoState = {
         anime: anime,
         currentEpisode,
@@ -60,6 +60,7 @@ export default function Watch2Gether({
   }, [
     roomId,
     isHost,
+    viewers,
     anime,
     currentEpisode,
     currentSeconds,
