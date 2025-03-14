@@ -9,6 +9,7 @@ import { AnimeMetadata } from "./listing";
 import { Link } from "react-router-dom";
 import { match } from "ts-pattern";
 import useRememberState from "./hooks/remember-state";
+import Watch2Gether from "./Watch2Gether";
 
 export interface WatchProps {
   anime: string;
@@ -57,25 +58,41 @@ export default function Watch({ anime, metadata }: WatchProps) {
   return (
     <div className="grid w-full h-screen max-w-screen-2xl grid-cols-[44px_1fr] lg:grid-cols-[140px_1fr]">
       {/* episode list */}
-      <section className="overflow-y-auto border-r shadow-md border-dusk-800">
-        <div className="hidden p-2 lg:block bg-black/50 line-clamp-1">
+      <section className="h-full min-h-0 grid grid-rows-[auto_2fr_auto_1fr] border-r shadow-md border-dusk-800">
+        <div className="shrink-0 p-2 bg-dusk-600 text-sm text-pink-300 line-clamp-1">
           Episode List
         </div>
-        {metadata.episodes.map((episode, i) => (
-          <div
-            key={episode}
-            className={cn(
-              "px-2 py-1 line-clamp-1 cursor-pointer hover:bg-dusk-300/30 transition-colors",
-              i % 2 === 0 && "bg-dusk-800",
-              i === currentEpisode - 1 &&
-                "text-dusk-800 bg-pink-300 hover:bg-pink-300 cursor-default",
-            )}
-            onClick={() => setCurrentEpisode(episode)}
-          >
-            <span className="hidden lg:inline">Episode </span>
-            {episode}
+        <div className="overflow-y-auto h-full border-dusk-800 min-h-0">
+          <div className="">
+            {metadata.episodes.map((episode, i) => (
+              <div
+                key={episode}
+                className={cn(
+                  "px-2 py-1 line-clamp-1 cursor-pointer hover:bg-dusk-300/30 transition-colors",
+                  i % 2 === 0 && "bg-dusk-800",
+                  i === currentEpisode - 1 &&
+                    "text-dusk-800 bg-pink-300 hover:bg-pink-300 cursor-default",
+                )}
+                onClick={() => setCurrentEpisode(episode)}
+              >
+                <span className="hidden lg:inline">Episode </span>
+                {episode}
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
+        <div className="shrink-0 p-2 bg-dusk-600 text-sm text-pink-300 line-clamp-1">
+          Watch2Gether
+        </div>
+        <div className="overflow-y-auto h-full">
+          <Watch2Gether
+            anime={anime}
+            currentEpisode={currentEpisode}
+            setCurrentEpisode={setCurrentEpisode}
+            currentSeconds={currentSeconds}
+            videoRef={videoRef}
+          />
+        </div>
       </section>
 
       <div className="flex flex-col min-h-0">

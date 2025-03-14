@@ -62,6 +62,11 @@ export default function useKeyboardControls(
     const keydown = (e: KeyboardEvent) => {
       if (e.key === "s") commands.hideSubtitles();
       if (e.key === "Shift") commands.pause();
+      if (e.key === "Escape") {
+        document.body.style.overflow = "auto";
+        exitFullscreen();
+        setFullscreen(false);
+      }
     };
     const keyup = (e: KeyboardEvent) => {
       if (e.key === "s") commands.showSubtitles();
@@ -124,20 +129,13 @@ function requestFullscreen() {
 }
 
 function exitFullscreen() {
-  // Check if the document is in fullscreen mode
-  if (document.exitFullscreen) {
-    document.exitFullscreen(); // For most browsers
-    // @ts-ignore:next-line
-  } else if (document.mozCancelFullScreen) {
-    // @ts-ignore:next-line
-    document.mozCancelFullScreen(); // Firefox
-    // @ts-ignore:next-line
-  } else if (document.webkitExitFullscreen) {
-    // @ts-ignore:next-line
-    document.webkitExitFullscreen(); // Safari and Chrome
-    // @ts-ignore:next-line
-  } else if (document.msExitFullscreen) {
-    // @ts-ignore:next-line
-    document.msExitFullscreen(); // IE/Edge
+  if (document.fullscreenElement) {
+    document.exitFullscreen?.(); // For most browsers
   }
+  // @ts-ignore:next-line
+  document.mozCancelFullScreen?.(); // Firefox
+  // @ts-ignore:next-line
+  document.webkitExitFullscreen?.(); // Safari and Chrome
+  // @ts-ignore:next-line
+  document.msExitFullscreen?.(); // IE/Edge
 }
