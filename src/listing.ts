@@ -151,7 +151,43 @@ export const listing: Record<string, AnimeMetadata> = {
       `/subs/usagi-drop/Usagi Drop  (${episode}).jp.srt`,
     episodes: new Array(11).fill(1).map((_, i) => i + 1),
     positionY: "5%",
-    offsetSeconds: 0.0,
+  },
+  "shigatsu-wa-kimi-no-uso": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/shigatsu-wa-kimi-no-uso/${episode}/master.m3u8`,
+    title: "Your Lie in April",
+    subtitlePath: (episode: number) =>
+      `/subs/shigatsu-wa-kimi-no-uso/Shigatsu_wa_Kimi_no_Uso_JP_${pad2(episode)}.ass`,
+    episodes: new Array(22).fill(1).map((_, i) => i + 1),
+    positionY: "5%",
+  },
+  texhnolyze: {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/texhnolyze-/${episode}/master.m3u8`,
+    title: "Texhnolyze",
+    subtitlePath: (episode: number) => "",
+    episodes: new Array(22).fill(1).map((_, i) => i + 1),
+  },
+  "ergo-proxy": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/ergo-proxy/${episode}/master.m3u8`,
+    title: "Ergo Proxy",
+    subtitlePath: (episode: number) => "",
+    episodes: new Array(22).fill(1).map((_, i) => i + 1),
+  },
+  "great-teacher-onizuka": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/great-teacher-onizuka/${episode}/master.m3u8`,
+    title: "GTO",
+    subtitlePath: (episode: number) => "",
+    episodes: new Array(22).fill(1).map((_, i) => i + 1),
+  },
+  "wotaku-ni-koi-wa-muzukashii": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/wotaku-ni-koi-wa-muzukashii/${episode}/master.m3u8`,
+    title: "GTO",
+    subtitlePath: (episode: number) => "",
+    episodes: new Array(22).fill(1).map((_, i) => i + 1),
   },
 };
 
