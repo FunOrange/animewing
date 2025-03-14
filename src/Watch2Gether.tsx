@@ -90,6 +90,7 @@ export default function Watch2Gether({
         })
         .with("viewer-joined", () => setViewers((prev) => prev + 1))
         .with("viewer-left", () => setViewers((prev) => prev - 1))
+        .with("video-state", () => {})
         .otherwise(() => console.log("Unexpected message", message));
     };
     websocketRef.current.onclose = () => {
