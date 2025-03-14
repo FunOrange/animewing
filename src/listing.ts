@@ -185,7 +185,7 @@ export const listing: Record<string, AnimeMetadata> = {
   "wotaku-ni-koi-wa-muzukashii": {
     m3u8: (episode: number) =>
       `https://hlsx3cdn.echovideo.to/wotaku-ni-koi-wa-muzukashii/${episode}/master.m3u8`,
-    title: "GTO",
+    title: "Wotaku ni Koi wa Muzukashii",
     subtitlePath: (episode: number) => "",
     episodes: new Array(22).fill(1).map((_, i) => i + 1),
   },
