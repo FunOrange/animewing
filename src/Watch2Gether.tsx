@@ -3,6 +3,8 @@ import { cn } from "./utils";
 import { match } from "ts-pattern";
 import { useNavigate } from "react-router-dom";
 
+const websocketUrl = "wss://funorange.ca";
+
 const buttonStyle = cn(
   "transition-colors bg-dusk-500 hover:bg-pink-400/90 border-none py-2 px-4 text-xs rounded-sm",
   "disabled:opacity-50 disabled:bg-dusk-500",
@@ -74,7 +76,7 @@ export default function Watch2Gether({
   }, []);
 
   const createRoom = () => {
-    websocketRef.current = new WebSocket(`ws://localhost:8888`);
+    websocketRef.current = new WebSocket(websocketUrl);
     websocketRef.current.onopen = () => {
       websocketRef.current!.send("create-room");
     };
@@ -99,7 +101,7 @@ export default function Watch2Gether({
   };
 
   const joinRoom = () => {
-    websocketRef.current = new WebSocket(`wss://funorange.ca`);
+    websocketRef.current = new WebSocket(websocketUrl);
     websocketRef.current.onopen = () => {
       websocketRef.current!.send("join-room " + roomIdInput);
     };
