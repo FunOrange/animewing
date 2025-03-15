@@ -38768,22 +38768,1359 @@
     "start": 501.4,
     "end": 504.56,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "バイクに乗ると\\N海は思っていたより近い",
+    "tokens": [
+      {
+        "id": 94703,
+        "start": 0,
+        "end": 3,
+        "surface": "バイク",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "バイク",
+        "reading": "バイク",
+        "pronunciation": "バイク",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "バイク",
+          "バイク",
+          "バイク"
+        ]
+      },
+      {
+        "id": 53039,
+        "start": 3,
+        "end": 4,
+        "surface": "に",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "に",
+        "reading": "ニ",
+        "pronunciation": "ニ",
+        "features": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "に",
+          "ニ",
+          "ニ"
+        ]
+      },
+      {
+        "id": 119046,
+        "start": 4,
+        "end": 6,
+        "surface": "乗る",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "乗る",
+        "reading": "ノル",
+        "pronunciation": "ノル",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "五段・ラ行",
+          "基本形",
+          "乗る",
+          "ノル",
+          "ノル"
+        ]
+      },
+      {
+        "id": 47724,
+        "start": 6,
+        "end": 7,
+        "surface": "と",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "引用",
+          "*"
+        ],
+        "base_form": "と",
+        "reading": "ト",
+        "pronunciation": "ト",
+        "features": [
+          "助詞",
+          "格助詞",
+          "引用",
+          "*",
+          "*",
+          "*",
+          "と",
+          "ト",
+          "ト"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 7,
+        "end": 8,
+        "surface": "\\",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 4,
+        "start": 8,
+        "end": 9,
+        "surface": "N",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 273749,
+        "start": 9,
+        "end": 10,
+        "surface": "海",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "海",
+        "reading": "ウミ",
+        "pronunciation": "ウミ",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "海",
+          "ウミ",
+          "ウミ"
+        ]
+      },
+      {
+        "id": 57062,
+        "start": 10,
+        "end": 11,
+        "surface": "は",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "は",
+        "reading": "ハ",
+        "pronunciation": "ワ",
+        "features": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "は",
+          "ハ",
+          "ワ"
+        ]
+      },
+      {
+        "id": 216253,
+        "start": 11,
+        "end": 13,
+        "surface": "思っ",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "思う",
+        "reading": "オモッ",
+        "pronunciation": "オモッ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "五段・ワ行促音便",
+          "連用タ接続",
+          "思う",
+          "オモッ",
+          "オモッ"
+        ]
+      },
+      {
+        "id": 46600,
+        "start": 13,
+        "end": 14,
+        "surface": "て",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "て",
+        "reading": "テ",
+        "pronunciation": "テ",
+        "features": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "て",
+          "テ",
+          "テ"
+        ]
+      },
+      {
+        "id": 3661,
+        "start": 14,
+        "end": 15,
+        "surface": "い",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "非自立",
+          "*",
+          "*"
+        ],
+        "base_form": "いる",
+        "reading": "イ",
+        "pronunciation": "イ",
+        "features": [
+          "動詞",
+          "非自立",
+          "*",
+          "*",
+          "一段",
+          "連用形",
+          "いる",
+          "イ",
+          "イ"
+        ]
+      },
+      {
+        "id": 39230,
+        "start": 15,
+        "end": 16,
+        "surface": "た",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "た",
+        "reading": "タ",
+        "pronunciation": "タ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・タ",
+          "基本形",
+          "た",
+          "タ",
+          "タ"
+        ]
+      },
+      {
+        "id": 78556,
+        "start": 16,
+        "end": 18,
+        "surface": "より",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "より",
+        "reading": "ヨリ",
+        "pronunciation": "ヨリ",
+        "features": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "より",
+          "ヨリ",
+          "ヨリ"
+        ]
+      },
+      {
+        "id": 358841,
+        "start": 18,
+        "end": 20,
+        "surface": "近い",
+        "class": "KNOWN",
+        "pos": [
+          "形容詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "近い",
+        "reading": "チカイ",
+        "pronunciation": "チカイ",
+        "features": [
+          "形容詞",
+          "自立",
+          "*",
+          "*",
+          "形容詞・アウオ段",
+          "基本形",
+          "近い",
+          "チカイ",
+          "チカイ"
+        ]
+      }
+    ]
   },
   {
     "start": 504.9,
     "end": 507.93,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "秋の潮風が\\N鼻の奥へと抜けていく",
+    "tokens": [
+      {
+        "id": 305106,
+        "start": 0,
+        "end": 1,
+        "surface": "秋",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "秋",
+        "reading": "アキ",
+        "pronunciation": "アキ",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "秋",
+          "アキ",
+          "アキ"
+        ]
+      },
+      {
+        "id": 55830,
+        "start": 1,
+        "end": 2,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "連体化",
+          "*",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "助詞",
+          "連体化",
+          "*",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 279677,
+        "start": 2,
+        "end": 4,
+        "surface": "潮風",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "潮風",
+        "reading": "シオカゼ",
+        "pronunciation": "シオカゼ",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "潮風",
+          "シオカゼ",
+          "シオカゼ"
+        ]
+      },
+      {
+        "id": 19675,
+        "start": 4,
+        "end": 5,
+        "surface": "が",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "が",
+        "reading": "ガ",
+        "pronunciation": "ガ",
+        "features": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "が",
+          "ガ",
+          "ガ"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 5,
+        "end": 6,
+        "surface": "\\",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 4,
+        "start": 6,
+        "end": 7,
+        "surface": "N",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 390838,
+        "start": 7,
+        "end": 8,
+        "surface": "鼻",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "鼻",
+        "reading": "ハナ",
+        "pronunciation": "ハナ",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "鼻",
+          "ハナ",
+          "ハナ"
+        ]
+      },
+      {
+        "id": 55830,
+        "start": 8,
+        "end": 9,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "連体化",
+          "*",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "助詞",
+          "連体化",
+          "*",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 181750,
+        "start": 9,
+        "end": 10,
+        "surface": "奥",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "奥",
+        "reading": "オク",
+        "pronunciation": "オク",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "奥",
+          "オク",
+          "オク"
+        ]
+      },
+      {
+        "id": 65964,
+        "start": 10,
+        "end": 11,
+        "surface": "へ",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "へ",
+        "reading": "ヘ",
+        "pronunciation": "エ",
+        "features": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "へ",
+          "ヘ",
+          "エ"
+        ]
+      },
+      {
+        "id": 47724,
+        "start": 11,
+        "end": 12,
+        "surface": "と",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "引用",
+          "*"
+        ],
+        "base_form": "と",
+        "reading": "ト",
+        "pronunciation": "ト",
+        "features": [
+          "助詞",
+          "格助詞",
+          "引用",
+          "*",
+          "*",
+          "*",
+          "と",
+          "ト",
+          "ト"
+        ]
+      },
+      {
+        "id": 226006,
+        "start": 12,
+        "end": 14,
+        "surface": "抜け",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "抜ける",
+        "reading": "ヌケ",
+        "pronunciation": "ヌケ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "一段",
+          "連用形",
+          "抜ける",
+          "ヌケ",
+          "ヌケ"
+        ]
+      },
+      {
+        "id": 46600,
+        "start": 14,
+        "end": 15,
+        "surface": "て",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "て",
+        "reading": "テ",
+        "pronunciation": "テ",
+        "features": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "て",
+          "テ",
+          "テ"
+        ]
+      },
+      {
+        "id": 4708,
+        "start": 15,
+        "end": 17,
+        "surface": "いく",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "非自立",
+          "*",
+          "*"
+        ],
+        "base_form": "いく",
+        "reading": "イク",
+        "pronunciation": "イク",
+        "features": [
+          "動詞",
+          "非自立",
+          "*",
+          "*",
+          "五段・カ行促音便",
+          "基本形",
+          "いく",
+          "イク",
+          "イク"
+        ]
+      }
+    ]
   },
   {
     "start": 508.4,
     "end": 513.31,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "それはハル子の言うとおり アタマの\\N中が 空っぽのせいなのかもしれない",
+    "tokens": [
+      {
+        "id": 38970,
+        "start": 0,
+        "end": 2,
+        "surface": "それ",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "代名詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "それ",
+        "reading": "ソレ",
+        "pronunciation": "ソレ",
+        "features": [
+          "名詞",
+          "代名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "それ",
+          "ソレ",
+          "ソレ"
+        ]
+      },
+      {
+        "id": 57062,
+        "start": 2,
+        "end": 3,
+        "surface": "は",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "は",
+        "reading": "ハ",
+        "pronunciation": "ワ",
+        "features": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "は",
+          "ハ",
+          "ワ"
+        ]
+      },
+      {
+        "id": 94554,
+        "start": 3,
+        "end": 6,
+        "surface": "ハル子",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "人名",
+          "名"
+        ],
+        "base_form": "ハル子",
+        "reading": "ハルコ",
+        "pronunciation": "ハルコ",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "人名",
+          "名",
+          "*",
+          "*",
+          "ハル子",
+          "ハルコ",
+          "ハルコ"
+        ]
+      },
+      {
+        "id": 55831,
+        "start": 6,
+        "end": 7,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 346446,
+        "start": 7,
+        "end": 9,
+        "surface": "言う",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "言う",
+        "reading": "イウ",
+        "pronunciation": "イウ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "五段・ワ行促音便",
+          "基本形",
+          "言う",
+          "イウ",
+          "イウ"
+        ]
+      },
+      {
+        "id": 47970,
+        "start": 9,
+        "end": 12,
+        "surface": "とおり",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "非自立",
+          "副詞可能",
+          "*"
+        ],
+        "base_form": "とおり",
+        "reading": "トオリ",
+        "pronunciation": "トーリ",
+        "features": [
+          "名詞",
+          "非自立",
+          "副詞可能",
+          "*",
+          "*",
+          "*",
+          "とおり",
+          "トオリ",
+          "トーリ"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 12,
+        "end": 13,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 81094,
+        "start": 13,
+        "end": 16,
+        "surface": "アタマ",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "アタマ",
+        "reading": "アタマ",
+        "pronunciation": "アタマ",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "アタマ",
+          "アタマ",
+          "アタマ"
+        ]
+      },
+      {
+        "id": 55830,
+        "start": 16,
+        "end": 17,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "連体化",
+          "*",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "助詞",
+          "連体化",
+          "*",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 17,
+        "end": 18,
+        "surface": "\\",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 4,
+        "start": 18,
+        "end": 19,
+        "surface": "N",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 114802,
+        "start": 19,
+        "end": 20,
+        "surface": "中",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "接尾",
+          "副詞可能",
+          "*"
+        ],
+        "base_form": "中",
+        "reading": "チュウ",
+        "pronunciation": "チュー",
+        "features": [
+          "名詞",
+          "接尾",
+          "副詞可能",
+          "*",
+          "*",
+          "*",
+          "中",
+          "チュウ",
+          "チュー"
+        ]
+      },
+      {
+        "id": 19675,
+        "start": 20,
+        "end": 21,
+        "surface": "が",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "が",
+        "reading": "ガ",
+        "pronunciation": "ガ",
+        "features": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "が",
+          "ガ",
+          "ガ"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 21,
+        "end": 22,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 306973,
+        "start": 22,
+        "end": 25,
+        "surface": "空っぽ",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "空っぽ",
+        "reading": "カラッポ",
+        "pronunciation": "カラッポ",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "空っぽ",
+          "カラッポ",
+          "カラッポ"
+        ]
+      },
+      {
+        "id": 55830,
+        "start": 25,
+        "end": 26,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "連体化",
+          "*",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "助詞",
+          "連体化",
+          "*",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 36833,
+        "start": 26,
+        "end": 28,
+        "surface": "せい",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "非自立",
+          "一般",
+          "*"
+        ],
+        "base_form": "せい",
+        "reading": "セイ",
+        "pronunciation": "セイ",
+        "features": [
+          "名詞",
+          "非自立",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "せい",
+          "セイ",
+          "セイ"
+        ]
+      },
+      {
+        "id": 50942,
+        "start": 28,
+        "end": 29,
+        "surface": "な",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "だ",
+        "reading": "ナ",
+        "pronunciation": "ナ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・ダ",
+          "体言接続",
+          "だ",
+          "ナ",
+          "ナ"
+        ]
+      },
+      {
+        "id": 55828,
+        "start": 29,
+        "end": 30,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "非自立",
+          "一般",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "名詞",
+          "非自立",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 18663,
+        "start": 30,
+        "end": 32,
+        "surface": "かも",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "副助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "かも",
+        "reading": "カモ",
+        "pronunciation": "カモ",
+        "features": [
+          "助詞",
+          "副助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "かも",
+          "カモ",
+          "カモ"
+        ]
+      },
+      {
+        "id": 33615,
+        "start": 32,
+        "end": 34,
+        "surface": "しれ",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "しれる",
+        "reading": "シレ",
+        "pronunciation": "シレ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "一段",
+          "未然形",
+          "しれる",
+          "シレ",
+          "シレ"
+        ]
+      },
+      {
+        "id": 50956,
+        "start": 34,
+        "end": 36,
+        "surface": "ない",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "ない",
+        "reading": "ナイ",
+        "pronunciation": "ナイ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・ナイ",
+          "基本形",
+          "ない",
+          "ナイ",
+          "ナイ"
+        ]
+      }
+    ]
   },
   {
     "start": 521.05,
@@ -85643,57 +86980,1904 @@
     "start": 852.68,
     "end": 853.77,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "覚えている",
+    "tokens": [
+      {
+        "id": 344643,
+        "start": 0,
+        "end": 2,
+        "surface": "覚え",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "覚える",
+        "reading": "オボエ",
+        "pronunciation": "オボエ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "一段",
+          "連用形",
+          "覚える",
+          "オボエ",
+          "オボエ"
+        ]
+      },
+      {
+        "id": 46600,
+        "start": 2,
+        "end": 3,
+        "surface": "て",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "て",
+        "reading": "テ",
+        "pronunciation": "テ",
+        "features": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "て",
+          "テ",
+          "テ"
+        ]
+      },
+      {
+        "id": 6652,
+        "start": 3,
+        "end": 5,
+        "surface": "いる",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "非自立",
+          "*",
+          "*"
+        ],
+        "base_form": "いる",
+        "reading": "イル",
+        "pronunciation": "イル",
+        "features": [
+          "動詞",
+          "非自立",
+          "*",
+          "*",
+          "一段",
+          "基本形",
+          "いる",
+          "イル",
+          "イル"
+        ]
+      }
+    ]
   },
   {
     "start": 853.82,
     "end": 855.87,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "あの６年前の小学校の火事",
+    "tokens": [
+      {
+        "id": 2223,
+        "start": 0,
+        "end": 2,
+        "surface": "あの",
+        "class": "KNOWN",
+        "pos": [
+          "フィラー",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "あの",
+        "reading": "アノ",
+        "pronunciation": "アノ",
+        "features": [
+          "フィラー",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "あの",
+          "アノ",
+          "アノ"
+        ]
+      },
+      {
+        "id": 391199,
+        "start": 2,
+        "end": 3,
+        "surface": "６",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "数",
+          "*",
+          "*"
+        ],
+        "base_form": "６",
+        "reading": "ロク",
+        "pronunciation": "ロク",
+        "features": [
+          "名詞",
+          "数",
+          "*",
+          "*",
+          "*",
+          "*",
+          "６",
+          "ロク",
+          "ロク"
+        ]
+      },
+      {
+        "id": 204744,
+        "start": 3,
+        "end": 4,
+        "surface": "年",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "接尾",
+          "助数詞",
+          "*"
+        ],
+        "base_form": "年",
+        "reading": "ネン",
+        "pronunciation": "ネン",
+        "features": [
+          "名詞",
+          "接尾",
+          "助数詞",
+          "*",
+          "*",
+          "*",
+          "年",
+          "ネン",
+          "ネン"
+        ]
+      },
+      {
+        "id": 143359,
+        "start": 4,
+        "end": 5,
+        "surface": "前",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "副詞可能",
+          "*",
+          "*"
+        ],
+        "base_form": "前",
+        "reading": "マエ",
+        "pronunciation": "マエ",
+        "features": [
+          "名詞",
+          "副詞可能",
+          "*",
+          "*",
+          "*",
+          "*",
+          "前",
+          "マエ",
+          "マエ"
+        ]
+      },
+      {
+        "id": 55830,
+        "start": 5,
+        "end": 6,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "連体化",
+          "*",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "助詞",
+          "連体化",
+          "*",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 192344,
+        "start": 6,
+        "end": 9,
+        "surface": "小学校",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "小学校",
+        "reading": "ショウガッコウ",
+        "pronunciation": "ショーガッコー",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "小学校",
+          "ショウガッコウ",
+          "ショーガッコー"
+        ]
+      },
+      {
+        "id": 55830,
+        "start": 9,
+        "end": 10,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "連体化",
+          "*",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "助詞",
+          "連体化",
+          "*",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 280585,
+        "start": 10,
+        "end": 12,
+        "surface": "火事",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "火事",
+        "reading": "カジ",
+        "pronunciation": "カジ",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "火事",
+          "カジ",
+          "カジ"
+        ]
+      }
+    ]
   },
   {
     "start": 856.28,
     "end": 857.75,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "助けてくれたんだよ",
+    "tokens": [
+      {
+        "id": 145305,
+        "start": 0,
+        "end": 2,
+        "surface": "助け",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "助ける",
+        "reading": "タスケ",
+        "pronunciation": "タスケ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "一段",
+          "連用形",
+          "助ける",
+          "タスケ",
+          "タスケ"
+        ]
+      },
+      {
+        "id": 46600,
+        "start": 2,
+        "end": 3,
+        "surface": "て",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "て",
+        "reading": "テ",
+        "pronunciation": "テ",
+        "features": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "て",
+          "テ",
+          "テ"
+        ]
+      },
+      {
+        "id": 24495,
+        "start": 3,
+        "end": 5,
+        "surface": "くれ",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "非自立",
+          "*",
+          "*"
+        ],
+        "base_form": "くれる",
+        "reading": "クレ",
+        "pronunciation": "クレ",
+        "features": [
+          "動詞",
+          "非自立",
+          "*",
+          "*",
+          "一段・クレル",
+          "連用形",
+          "くれる",
+          "クレ",
+          "クレ"
+        ]
+      },
+      {
+        "id": 39230,
+        "start": 5,
+        "end": 6,
+        "surface": "た",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "た",
+        "reading": "タ",
+        "pronunciation": "タ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・タ",
+          "基本形",
+          "た",
+          "タ",
+          "タ"
+        ]
+      },
+      {
+        "id": 80605,
+        "start": 6,
+        "end": 7,
+        "surface": "ん",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "非自立",
+          "一般",
+          "*"
+        ],
+        "base_form": "ん",
+        "reading": "ン",
+        "pronunciation": "ン",
+        "features": [
+          "名詞",
+          "非自立",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "ん",
+          "ン",
+          "ン"
+        ]
+      },
+      {
+        "id": 41862,
+        "start": 7,
+        "end": 8,
+        "surface": "だ",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "だ",
+        "reading": "ダ",
+        "pronunciation": "ダ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・ダ",
+          "基本形",
+          "だ",
+          "ダ",
+          "ダ"
+        ]
+      },
+      {
+        "id": 77460,
+        "start": 8,
+        "end": 9,
+        "surface": "よ",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "終助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "よ",
+        "reading": "ヨ",
+        "pronunciation": "ヨ",
+        "features": [
+          "助詞",
+          "終助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "よ",
+          "ヨ",
+          "ヨ"
+        ]
+      }
+    ]
   },
   {
     "start": 857.79,
     "end": 858.68,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "兄ちゃんが？",
+    "tokens": [
+      {
+        "id": 133336,
+        "start": 0,
+        "end": 4,
+        "surface": "兄ちゃん",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "兄ちゃん",
+        "reading": "ニイチャン",
+        "pronunciation": "ニーチャン",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "兄ちゃん",
+          "ニイチャン",
+          "ニーチャン"
+        ]
+      },
+      {
+        "id": 19675,
+        "start": 4,
+        "end": 5,
+        "surface": "が",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "が",
+        "reading": "ガ",
+        "pronunciation": "ガ",
+        "features": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "が",
+          "ガ",
+          "ガ"
+        ]
+      },
+      {
+        "id": 391222,
+        "start": 5,
+        "end": 6,
+        "surface": "？",
+        "class": "KNOWN",
+        "pos": [
+          "記号",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "？",
+        "reading": "？",
+        "pronunciation": "？",
+        "features": [
+          "記号",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "？",
+          "？",
+          "？"
+        ]
+      }
+    ]
   },
   {
     "start": 858.72,
     "end": 861.71,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "弱き者の味方\\Nカンチさまっスよ",
+    "tokens": [
+      {
+        "id": 209723,
+        "start": 0,
+        "end": 2,
+        "surface": "弱き",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "形容動詞語幹",
+          "*",
+          "*"
+        ],
+        "base_form": "弱き",
+        "reading": "ヨワキ",
+        "pronunciation": "ヨワキ",
+        "features": [
+          "名詞",
+          "形容動詞語幹",
+          "*",
+          "*",
+          "*",
+          "*",
+          "弱き",
+          "ヨワキ",
+          "ヨワキ"
+        ]
+      },
+      {
+        "id": 322394,
+        "start": 2,
+        "end": 3,
+        "surface": "者",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "接尾",
+          "一般",
+          "*"
+        ],
+        "base_form": "者",
+        "reading": "シャ",
+        "pronunciation": "シャ",
+        "features": [
+          "名詞",
+          "接尾",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "者",
+          "シャ",
+          "シャ"
+        ]
+      },
+      {
+        "id": 55830,
+        "start": 3,
+        "end": 4,
+        "surface": "の",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "連体化",
+          "*",
+          "*"
+        ],
+        "base_form": "の",
+        "reading": "ノ",
+        "pronunciation": "ノ",
+        "features": [
+          "助詞",
+          "連体化",
+          "*",
+          "*",
+          "*",
+          "*",
+          "の",
+          "ノ",
+          "ノ"
+        ]
+      },
+      {
+        "id": 163039,
+        "start": 4,
+        "end": 6,
+        "surface": "味方",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "味方",
+        "reading": "ミカタ",
+        "pronunciation": "ミカタ",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "味方",
+          "ミカタ",
+          "ミカタ"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 6,
+        "end": 7,
+        "surface": "\\",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 4,
+        "start": 7,
+        "end": 8,
+        "surface": "N",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 31,
+        "start": 8,
+        "end": 11,
+        "surface": "カンチ",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 28480,
+        "start": 11,
+        "end": 12,
+        "surface": "さ",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "終助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "さ",
+        "reading": "サ",
+        "pronunciation": "サ",
+        "features": [
+          "助詞",
+          "終助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "さ",
+          "サ",
+          "サ"
+        ]
+      },
+      {
+        "id": 69139,
+        "start": 12,
+        "end": 14,
+        "surface": "まっ",
+        "class": "KNOWN",
+        "pos": [
+          "接頭詞",
+          "名詞接続",
+          "*",
+          "*"
+        ],
+        "base_form": "まっ",
+        "reading": "マッ",
+        "pronunciation": "マッ",
+        "features": [
+          "接頭詞",
+          "名詞接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "まっ",
+          "マッ",
+          "マッ"
+        ]
+      },
+      {
+        "id": 31,
+        "start": 14,
+        "end": 15,
+        "surface": "ス",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 77460,
+        "start": 15,
+        "end": 16,
+        "surface": "よ",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "終助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "よ",
+        "reading": "ヨ",
+        "pronunciation": "ヨ",
+        "features": [
+          "助詞",
+          "終助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "よ",
+          "ヨ",
+          "ヨ"
+        ]
+      }
+    ]
   },
   {
     "start": 862.69,
     "end": 864.62,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "放火だという\\N噂はあったけど",
+    "tokens": [
+      {
+        "id": 234454,
+        "start": 0,
+        "end": 2,
+        "surface": "放火",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "放火",
+        "reading": "ホウカ",
+        "pronunciation": "ホーカ",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "放火",
+          "ホウカ",
+          "ホーカ"
+        ]
+      },
+      {
+        "id": 41862,
+        "start": 2,
+        "end": 3,
+        "surface": "だ",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "だ",
+        "reading": "ダ",
+        "pronunciation": "ダ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・ダ",
+          "基本形",
+          "だ",
+          "ダ",
+          "ダ"
+        ]
+      },
+      {
+        "id": 47756,
+        "start": 3,
+        "end": 6,
+        "surface": "という",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "連語",
+          "*"
+        ],
+        "base_form": "という",
+        "reading": "トイウ",
+        "pronunciation": "トユウ",
+        "features": [
+          "助詞",
+          "格助詞",
+          "連語",
+          "*",
+          "*",
+          "*",
+          "という",
+          "トイウ",
+          "トユウ"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 6,
+        "end": 7,
+        "surface": "\\",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 4,
+        "start": 7,
+        "end": 8,
+        "surface": "N",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 166581,
+        "start": 8,
+        "end": 9,
+        "surface": "噂",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "噂",
+        "reading": "ウワサ",
+        "pronunciation": "ウワサ",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "噂",
+          "ウワサ",
+          "ウワサ"
+        ]
+      },
+      {
+        "id": 57062,
+        "start": 9,
+        "end": 10,
+        "surface": "は",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "は",
+        "reading": "ハ",
+        "pronunciation": "ワ",
+        "features": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "は",
+          "ハ",
+          "ワ"
+        ]
+      },
+      {
+        "id": 1845,
+        "start": 10,
+        "end": 12,
+        "surface": "あっ",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "ある",
+        "reading": "アッ",
+        "pronunciation": "アッ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "五段・ラ行",
+          "連用タ接続",
+          "ある",
+          "アッ",
+          "アッ"
+        ]
+      },
+      {
+        "id": 39230,
+        "start": 12,
+        "end": 13,
+        "surface": "た",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "た",
+        "reading": "タ",
+        "pronunciation": "タ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・タ",
+          "基本形",
+          "た",
+          "タ",
+          "タ"
+        ]
+      },
+      {
+        "id": 25336,
+        "start": 13,
+        "end": 15,
+        "surface": "けど",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "けど",
+        "reading": "ケド",
+        "pronunciation": "ケド",
+        "features": [
+          "助詞",
+          "接続助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "けど",
+          "ケド",
+          "ケド"
+        ]
+      }
+    ]
   },
   {
     "start": 864.66,
     "end": 867.03,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "結局 原因は\\Nわからずじまいだった",
+    "tokens": [
+      {
+        "id": 316242,
+        "start": 0,
+        "end": 2,
+        "surface": "結局",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "副詞可能",
+          "*",
+          "*"
+        ],
+        "base_form": "結局",
+        "reading": "ケッキョク",
+        "pronunciation": "ケッキョク",
+        "features": [
+          "名詞",
+          "副詞可能",
+          "*",
+          "*",
+          "*",
+          "*",
+          "結局",
+          "ケッキョク",
+          "ケッキョク"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 2,
+        "end": 3,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 153503,
+        "start": 3,
+        "end": 5,
+        "surface": "原因",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "原因",
+        "reading": "ゲンイン",
+        "pronunciation": "ゲンイン",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "原因",
+          "ゲンイン",
+          "ゲンイン"
+        ]
+      },
+      {
+        "id": 57062,
+        "start": 5,
+        "end": 6,
+        "surface": "は",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "は",
+        "reading": "ハ",
+        "pronunciation": "ワ",
+        "features": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "は",
+          "ハ",
+          "ワ"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 6,
+        "end": 7,
+        "surface": "\\",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 4,
+        "start": 7,
+        "end": 8,
+        "surface": "N",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 79638,
+        "start": 8,
+        "end": 11,
+        "surface": "わから",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "わかる",
+        "reading": "ワカラ",
+        "pronunciation": "ワカラ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "五段・ラ行",
+          "未然形",
+          "わかる",
+          "ワカラ",
+          "ワカラ"
+        ]
+      },
+      {
+        "id": 36554,
+        "start": 11,
+        "end": 12,
+        "surface": "ず",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "ぬ",
+        "reading": "ズ",
+        "pronunciation": "ズ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・ヌ",
+          "連用ニ接続",
+          "ぬ",
+          "ズ",
+          "ズ"
+        ]
+      },
+      {
+        "id": 34107,
+        "start": 12,
+        "end": 15,
+        "surface": "じまい",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "接尾",
+          "一般",
+          "*"
+        ],
+        "base_form": "じまい",
+        "reading": "ジマイ",
+        "pronunciation": "ジマイ",
+        "features": [
+          "名詞",
+          "接尾",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "じまい",
+          "ジマイ",
+          "ジマイ"
+        ]
+      },
+      {
+        "id": 42169,
+        "start": 15,
+        "end": 17,
+        "surface": "だっ",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "だ",
+        "reading": "ダッ",
+        "pronunciation": "ダッ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・ダ",
+          "連用タ接続",
+          "だ",
+          "ダッ",
+          "ダッ"
+        ]
+      },
+      {
+        "id": 39230,
+        "start": 17,
+        "end": 18,
+        "surface": "た",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "た",
+        "reading": "タ",
+        "pronunciation": "タ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・タ",
+          "基本形",
+          "た",
+          "タ",
+          "タ"
+        ]
+      }
+    ]
   },
   {
     "start": 867.73,
     "end": 870.79,
     "marginV": 0,
-    "text": "",
-    "tokens": []
+    "text": "あの日 鮫島・マミ美と\\N兄は出会ったんだ",
+    "tokens": [
+      {
+        "id": 2222,
+        "start": 0,
+        "end": 2,
+        "surface": "あの",
+        "class": "KNOWN",
+        "pos": [
+          "連体詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "あの",
+        "reading": "アノ",
+        "pronunciation": "アノ",
+        "features": [
+          "連体詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "あの",
+          "アノ",
+          "アノ"
+        ]
+      },
+      {
+        "id": 238422,
+        "start": 2,
+        "end": 3,
+        "surface": "日",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "非自立",
+          "副詞可能",
+          "*"
+        ],
+        "base_form": "日",
+        "reading": "ヒ",
+        "pronunciation": "ヒ",
+        "features": [
+          "名詞",
+          "非自立",
+          "副詞可能",
+          "*",
+          "*",
+          "*",
+          "日",
+          "ヒ",
+          "ヒ"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 3,
+        "end": 4,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 387189,
+        "start": 4,
+        "end": 6,
+        "surface": "鮫島",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "人名",
+          "姓"
+        ],
+        "base_form": "鮫島",
+        "reading": "サメシマ",
+        "pronunciation": "サメシマ",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "人名",
+          "姓",
+          "*",
+          "*",
+          "鮫島",
+          "サメシマ",
+          "サメシマ"
+        ]
+      },
+      {
+        "id": 102649,
+        "start": 6,
+        "end": 7,
+        "surface": "・",
+        "class": "KNOWN",
+        "pos": [
+          "記号",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "・",
+        "reading": "・",
+        "pronunciation": "・",
+        "features": [
+          "記号",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "・",
+          "・",
+          "・"
+        ]
+      },
+      {
+        "id": 99145,
+        "start": 7,
+        "end": 9,
+        "surface": "マミ",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "マミ",
+        "reading": "マミ",
+        "pronunciation": "マミ",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "マミ",
+          "マミ",
+          "マミ"
+        ]
+      },
+      {
+        "id": 320163,
+        "start": 9,
+        "end": 10,
+        "surface": "美",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "接尾",
+          "一般",
+          "*"
+        ],
+        "base_form": "美",
+        "reading": "ビ",
+        "pronunciation": "ビ",
+        "features": [
+          "名詞",
+          "接尾",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "美",
+          "ビ",
+          "ビ"
+        ]
+      },
+      {
+        "id": 47726,
+        "start": 10,
+        "end": 11,
+        "surface": "と",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*"
+        ],
+        "base_form": "と",
+        "reading": "ト",
+        "pronunciation": "ト",
+        "features": [
+          "助詞",
+          "格助詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "と",
+          "ト",
+          "ト"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 11,
+        "end": 12,
+        "surface": "\\",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 4,
+        "start": 12,
+        "end": 13,
+        "surface": "N",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "一般",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 133333,
+        "start": 13,
+        "end": 14,
+        "surface": "兄",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "接尾",
+          "一般",
+          "*"
+        ],
+        "base_form": "兄",
+        "reading": "ケイ",
+        "pronunciation": "ケイ",
+        "features": [
+          "名詞",
+          "接尾",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "兄",
+          "ケイ",
+          "ケイ"
+        ]
+      },
+      {
+        "id": 57062,
+        "start": 14,
+        "end": 15,
+        "surface": "は",
+        "class": "KNOWN",
+        "pos": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*"
+        ],
+        "base_form": "は",
+        "reading": "ハ",
+        "pronunciation": "ワ",
+        "features": [
+          "助詞",
+          "係助詞",
+          "*",
+          "*",
+          "*",
+          "*",
+          "は",
+          "ハ",
+          "ワ"
+        ]
+      },
+      {
+        "id": 139501,
+        "start": 15,
+        "end": 18,
+        "surface": "出会っ",
+        "class": "KNOWN",
+        "pos": [
+          "動詞",
+          "自立",
+          "*",
+          "*"
+        ],
+        "base_form": "出会う",
+        "reading": "デアッ",
+        "pronunciation": "デアッ",
+        "features": [
+          "動詞",
+          "自立",
+          "*",
+          "*",
+          "五段・ワ行促音便",
+          "連用タ接続",
+          "出会う",
+          "デアッ",
+          "デアッ"
+        ]
+      },
+      {
+        "id": 39230,
+        "start": 18,
+        "end": 19,
+        "surface": "た",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "た",
+        "reading": "タ",
+        "pronunciation": "タ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・タ",
+          "基本形",
+          "た",
+          "タ",
+          "タ"
+        ]
+      },
+      {
+        "id": 80605,
+        "start": 19,
+        "end": 20,
+        "surface": "ん",
+        "class": "KNOWN",
+        "pos": [
+          "名詞",
+          "非自立",
+          "一般",
+          "*"
+        ],
+        "base_form": "ん",
+        "reading": "ン",
+        "pronunciation": "ン",
+        "features": [
+          "名詞",
+          "非自立",
+          "一般",
+          "*",
+          "*",
+          "*",
+          "ん",
+          "ン",
+          "ン"
+        ]
+      },
+      {
+        "id": 41862,
+        "start": 20,
+        "end": 21,
+        "surface": "だ",
+        "class": "KNOWN",
+        "pos": [
+          "助動詞",
+          "*",
+          "*",
+          "*"
+        ],
+        "base_form": "だ",
+        "reading": "ダ",
+        "pronunciation": "ダ",
+        "features": [
+          "助動詞",
+          "*",
+          "*",
+          "*",
+          "特殊・ダ",
+          "基本形",
+          "だ",
+          "ダ",
+          "ダ"
+        ]
+      }
+    ]
   },
   {
     "start": 873.23,

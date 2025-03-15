@@ -59322,12 +59322,512 @@
     "start": 1134.82,
     "end": 1145.66,
     "marginV": 0,
-    "text": "clouds.",
+    "text": "The place changes and goes. Like a wind, like clouds.",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 6,
+        "end": 3,
+        "surface": "The",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 3,
+        "end": 4,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 4,
+        "end": 9,
+        "surface": "place",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 9,
+        "end": 10,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 10,
+        "end": 17,
+        "surface": "changes",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 17,
+        "end": 18,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 18,
+        "end": 21,
+        "surface": "and",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 21,
+        "end": 22,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 22,
+        "end": 26,
+        "surface": "goes",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 26,
+        "end": 27,
+        "surface": ".",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 27,
+        "end": 28,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 28,
+        "end": 32,
+        "surface": "Like",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 32,
+        "end": 33,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 33,
+        "end": 34,
+        "surface": "a",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 34,
+        "end": 35,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 35,
+        "end": 39,
+        "surface": "wind",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 39,
+        "end": 40,
+        "surface": ",",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 40,
+        "end": 41,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 41,
+        "end": 45,
+        "surface": "like",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 45,
+        "end": 46,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 46,
+        "end": 52,
         "surface": "clouds",
         "class": "UNKNOWN",
         "pos": [
@@ -59351,8 +59851,8 @@
       },
       {
         "id": 39,
-        "start": 6,
-        "end": 7,
+        "start": 52,
+        "end": 53,
         "surface": ".",
         "class": "UNKNOWN",
         "pos": [
@@ -59380,13 +59880,263 @@
     "start": 1145.66,
     "end": 1159.66,
     "marginV": 0,
-    "text": "ces.",
+    "text": "Like the traces of the heart, no halt at the places.",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 3,
-        "surface": "ces",
+        "end": 4,
+        "surface": "Like",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 4,
+        "end": 5,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 5,
+        "end": 8,
+        "surface": "the",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 8,
+        "end": 9,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 9,
+        "end": 15,
+        "surface": "traces",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 15,
+        "end": 16,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 16,
+        "end": 18,
+        "surface": "of",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 18,
+        "end": 19,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 19,
+        "end": 22,
+        "surface": "the",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 22,
+        "end": 23,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 23,
+        "end": 28,
+        "surface": "heart",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -59409,8 +60159,283 @@
       },
       {
         "id": 39,
-        "start": 3,
-        "end": 4,
+        "start": 28,
+        "end": 29,
+        "surface": ",",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 29,
+        "end": 30,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 30,
+        "end": 32,
+        "surface": "no",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 32,
+        "end": 33,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 33,
+        "end": 37,
+        "surface": "halt",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 37,
+        "end": 38,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 38,
+        "end": 40,
+        "surface": "at",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 40,
+        "end": 41,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 41,
+        "end": 44,
+        "surface": "the",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 44,
+        "end": 45,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 45,
+        "end": 51,
+        "surface": "places",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 51,
+        "end": 52,
         "surface": ".",
         "class": "UNKNOWN",
         "pos": [
@@ -59438,12 +60463,437 @@
     "start": 1159.92,
     "end": 1170.77,
     "marginV": 0,
-    "text": "apart.",
+    "text": "The place is so far away. be far apart.",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 5,
+        "end": 3,
+        "surface": "The",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 3,
+        "end": 4,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 4,
+        "end": 9,
+        "surface": "place",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 9,
+        "end": 10,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 10,
+        "end": 12,
+        "surface": "is",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 12,
+        "end": 13,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 13,
+        "end": 15,
+        "surface": "so",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 15,
+        "end": 16,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 16,
+        "end": 19,
+        "surface": "far",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 19,
+        "end": 20,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 20,
+        "end": 24,
+        "surface": "away",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 24,
+        "end": 25,
+        "surface": ".",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 25,
+        "end": 26,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 26,
+        "end": 28,
+        "surface": "be",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 28,
+        "end": 29,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 29,
+        "end": 32,
+        "surface": "far",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 32,
+        "end": 33,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 33,
+        "end": 38,
         "surface": "apart",
         "class": "UNKNOWN",
         "pos": [
@@ -59467,8 +60917,8 @@
       },
       {
         "id": 39,
-        "start": 5,
-        "end": 6,
+        "start": 38,
+        "end": 39,
         "surface": ".",
         "class": "UNKNOWN",
         "pos": [
@@ -59496,13 +60946,13 @@
     "start": 1170.77,
     "end": 1183.87,
     "marginV": 0,
-    "text": "ship.",
+    "text": "people's hand does not reach, so merely has the worship.",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 4,
-        "surface": "ship",
+        "end": 6,
+        "surface": "people",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -59525,8 +60975,533 @@
       },
       {
         "id": 39,
-        "start": 4,
-        "end": 5,
+        "start": 6,
+        "end": 7,
+        "surface": "'",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 7,
+        "end": 8,
+        "surface": "s",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 8,
+        "end": 9,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 9,
+        "end": 13,
+        "surface": "hand",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 13,
+        "end": 14,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 14,
+        "end": 18,
+        "surface": "does",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 18,
+        "end": 19,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 19,
+        "end": 22,
+        "surface": "not",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 22,
+        "end": 23,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 23,
+        "end": 28,
+        "surface": "reach",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 28,
+        "end": 29,
+        "surface": ",",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 29,
+        "end": 30,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 30,
+        "end": 32,
+        "surface": "so",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 32,
+        "end": 33,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 33,
+        "end": 39,
+        "surface": "merely",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 39,
+        "end": 40,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 40,
+        "end": 43,
+        "surface": "has",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 43,
+        "end": 44,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 44,
+        "end": 47,
+        "surface": "the",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 47,
+        "end": 48,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 48,
+        "end": 55,
+        "surface": "worship",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 55,
+        "end": 56,
         "surface": ".",
         "class": "UNKNOWN",
         "pos": [
@@ -59554,12 +61529,587 @@
     "start": 1185.62,
     "end": 1196.52,
     "marginV": 0,
-    "text": "on.",
+    "text": "The place is a lofty load. can't meet nobody put on.",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
+        "end": 3,
+        "surface": "The",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 3,
+        "end": 4,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 4,
+        "end": 9,
+        "surface": "place",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 9,
+        "end": 10,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 10,
+        "end": 12,
+        "surface": "is",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 12,
+        "end": 13,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 13,
+        "end": 14,
+        "surface": "a",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 14,
+        "end": 15,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 15,
+        "end": 20,
+        "surface": "lofty",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 20,
+        "end": 21,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 21,
+        "end": 25,
+        "surface": "load",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 25,
+        "end": 26,
+        "surface": ".",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 26,
+        "end": 27,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 27,
+        "end": 30,
+        "surface": "can",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 30,
+        "end": 31,
+        "surface": "'",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 31,
+        "end": 32,
+        "surface": "t",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 32,
+        "end": 33,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 33,
+        "end": 37,
+        "surface": "meet",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 37,
+        "end": 38,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 38,
+        "end": 44,
+        "surface": "nobody",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 44,
+        "end": 45,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 45,
+        "end": 48,
+        "surface": "put",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 48,
+        "end": 49,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 49,
+        "end": 51,
         "surface": "on",
         "class": "UNKNOWN",
         "pos": [
@@ -59583,8 +62133,8 @@
       },
       {
         "id": 39,
-        "start": 2,
-        "end": 3,
+        "start": 51,
+        "end": 52,
         "surface": ".",
         "class": "UNKNOWN",
         "pos": [
@@ -59612,13 +62162,213 @@
     "start": 1196.52,
     "end": 1209.12,
     "marginV": 0,
-    "text": "ges.",
+    "text": "We will lose the place. so lofty which changes.",
     "tokens": [
       {
         "id": 0,
         "start": 0,
+        "end": 2,
+        "surface": "We",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 2,
         "end": 3,
-        "surface": "ges",
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 3,
+        "end": 7,
+        "surface": "will",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 7,
+        "end": 8,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 8,
+        "end": 12,
+        "surface": "lose",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 12,
+        "end": 13,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 13,
+        "end": 16,
+        "surface": "the",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 16,
+        "end": 17,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 17,
+        "end": 22,
+        "surface": "place",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -59641,8 +62391,233 @@
       },
       {
         "id": 39,
-        "start": 3,
-        "end": 4,
+        "start": 22,
+        "end": 23,
+        "surface": ".",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 23,
+        "end": 24,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 24,
+        "end": 26,
+        "surface": "so",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 26,
+        "end": 27,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 27,
+        "end": 32,
+        "surface": "lofty",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 32,
+        "end": 33,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 33,
+        "end": 38,
+        "surface": "which",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 38,
+        "end": 39,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 39,
+        "end": 46,
+        "surface": "changes",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 46,
+        "end": 47,
         "surface": ".",
         "class": "UNKNOWN",
         "pos": [
@@ -59670,12 +62645,462 @@
     "start": 1209.92,
     "end": 1221.12,
     "marginV": 0,
-    "text": "sad.",
+    "text": "Not all were desired. However, we're never sad.",
     "tokens": [
       {
         "id": 0,
         "start": 0,
         "end": 3,
+        "surface": "Not",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 3,
+        "end": 4,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 4,
+        "end": 7,
+        "surface": "all",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 7,
+        "end": 8,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 8,
+        "end": 12,
+        "surface": "were",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 12,
+        "end": 13,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 13,
+        "end": 20,
+        "surface": "desired",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 20,
+        "end": 21,
+        "surface": ".",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 21,
+        "end": 22,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 22,
+        "end": 29,
+        "surface": "However",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 29,
+        "end": 30,
+        "surface": ",",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 30,
+        "end": 31,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 31,
+        "end": 33,
+        "surface": "we",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 39,
+        "start": 33,
+        "end": 34,
+        "surface": "'",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "サ変接続",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 34,
+        "end": 36,
+        "surface": "re",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 36,
+        "end": 37,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 37,
+        "end": 42,
+        "surface": "never",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 42,
+        "end": 43,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 43,
+        "end": 46,
         "surface": "sad",
         "class": "UNKNOWN",
         "pos": [
@@ -59699,8 +63124,8 @@
       },
       {
         "id": 39,
-        "start": 3,
-        "end": 4,
+        "start": 46,
+        "end": 47,
         "surface": ".",
         "class": "UNKNOWN",
         "pos": [

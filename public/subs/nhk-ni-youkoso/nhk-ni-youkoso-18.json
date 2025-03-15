@@ -123042,12 +123042,212 @@
     "start": 1338.55,
     "end": 1342.47,
     "marginV": 0,
-    "text": "ga",
+    "text": "moshimo ashita kono sekai ga",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
+        "end": 7,
+        "surface": "moshimo",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 7,
+        "end": 8,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 8,
+        "end": 14,
+        "surface": "ashita",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 14,
+        "end": 15,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 15,
+        "end": 19,
+        "surface": "kono",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 19,
+        "end": 20,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 20,
+        "end": 25,
+        "surface": "sekai",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 25,
+        "end": 26,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 26,
+        "end": 28,
         "surface": "ga",
         "class": "UNKNOWN",
         "pos": [
@@ -123075,13 +123275,363 @@
     "start": 1342.93,
     "end": 1347.06,
     "marginV": 0,
-    "text": "ra",
+    "text": "owaru to shite mo kimi no koto dakara",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "ra",
+        "end": 5,
+        "surface": "owaru",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 5,
+        "end": 6,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 6,
+        "end": 8,
+        "surface": "to",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 8,
+        "end": 9,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 9,
+        "end": 14,
+        "surface": "shite",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 14,
+        "end": 15,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 15,
+        "end": 17,
+        "surface": "mo",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 17,
+        "end": 18,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 18,
+        "end": 22,
+        "surface": "kimi",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 22,
+        "end": 23,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 23,
+        "end": 25,
+        "surface": "no",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 25,
+        "end": 26,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 26,
+        "end": 30,
+        "surface": "koto",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 30,
+        "end": 31,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 31,
+        "end": 37,
+        "surface": "dakara",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123108,13 +123658,213 @@
     "start": 1347.23,
     "end": 1351.02,
     "marginV": 0,
-    "text": "ka",
+    "text": "sore nara sore demo iika",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "ka",
+        "end": 4,
+        "surface": "sore",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 4,
+        "end": 5,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 5,
+        "end": 9,
+        "surface": "nara",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 9,
+        "end": 10,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 10,
+        "end": 14,
+        "surface": "sore",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 14,
+        "end": 15,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 15,
+        "end": 19,
+        "surface": "demo",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 19,
+        "end": 20,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 20,
+        "end": 24,
+        "surface": "iika",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123141,13 +123891,213 @@
     "start": 1351.56,
     "end": 1355.9,
     "marginV": 0,
-    "text": "na",
+    "text": "sokkenai taido toru no kana",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "na",
+        "end": 8,
+        "surface": "sokkenai",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 8,
+        "end": 9,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 9,
+        "end": 14,
+        "surface": "taido",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 14,
+        "end": 15,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 15,
+        "end": 19,
+        "surface": "toru",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 19,
+        "end": 20,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 20,
+        "end": 22,
+        "surface": "no",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 22,
+        "end": 23,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 23,
+        "end": 27,
+        "surface": "kana",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123174,13 +124124,213 @@
     "start": 1356.28,
     "end": 1359.86,
     "marginV": 0,
-    "text": "do",
+    "text": "muri suru koto wa dakedo",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "do",
+        "end": 4,
+        "surface": "muri",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 4,
+        "end": 5,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 5,
+        "end": 9,
+        "surface": "suru",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 9,
+        "end": 10,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 10,
+        "end": 14,
+        "surface": "koto",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 14,
+        "end": 15,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 15,
+        "end": 17,
+        "surface": "wa",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 17,
+        "end": 18,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 18,
+        "end": 24,
+        "surface": "dakedo",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123207,13 +124357,313 @@
     "start": 1360.41,
     "end": 1365.12,
     "marginV": 0,
-    "text": "te",
+    "text": "tama ni demo iikara kao wo agete",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "te",
+        "end": 4,
+        "surface": "tama",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 4,
+        "end": 5,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 5,
+        "end": 7,
+        "surface": "ni",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 7,
+        "end": 8,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 8,
+        "end": 12,
+        "surface": "demo",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 12,
+        "end": 13,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 13,
+        "end": 19,
+        "surface": "iikara",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 19,
+        "end": 20,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 20,
+        "end": 23,
+        "surface": "kao",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 23,
+        "end": 24,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 24,
+        "end": 26,
+        "surface": "wo",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 26,
+        "end": 27,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 27,
+        "end": 32,
+        "surface": "agete",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123240,13 +124690,113 @@
     "start": 1365.12,
     "end": 1368.12,
     "marginV": 0,
-    "text": "yo",
+    "text": "kocchi wo miteyo",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "yo",
+        "end": 6,
+        "surface": "kocchi",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 6,
+        "end": 7,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 7,
+        "end": 9,
+        "surface": "wo",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 9,
+        "end": 10,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 10,
+        "end": 16,
+        "surface": "miteyo",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123273,13 +124823,113 @@
     "start": 1369.67,
     "end": 1371.64,
     "marginV": 0,
-    "text": "te",
+    "text": "watashi wo mite",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "te",
+        "end": 7,
+        "surface": "watashi",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 7,
+        "end": 8,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 8,
+        "end": 10,
+        "surface": "wo",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 10,
+        "end": 11,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 11,
+        "end": 15,
+        "surface": "mite",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123306,13 +124956,163 @@
     "start": 1371.64,
     "end": 1375.17,
     "marginV": 0,
-    "text": "ni",
+    "text": "chippoke na sekai nanoni",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "ni",
+        "end": 8,
+        "surface": "chippoke",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 8,
+        "end": 9,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 9,
+        "end": 11,
+        "surface": "na",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 11,
+        "end": 12,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 12,
+        "end": 17,
+        "surface": "sekai",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 17,
+        "end": 18,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 18,
+        "end": 24,
+        "surface": "nanoni",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123339,13 +125139,363 @@
     "start": 1375.17,
     "end": 1380.28,
     "marginV": 0,
-    "text": "ru",
+    "text": "naze darou kono ryoute ni wa ooki sugiru",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "ru",
+        "end": 4,
+        "surface": "naze",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 4,
+        "end": 5,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 5,
+        "end": 10,
+        "surface": "darou",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 10,
+        "end": 11,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 11,
+        "end": 15,
+        "surface": "kono",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 15,
+        "end": 16,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 16,
+        "end": 22,
+        "surface": "ryoute",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 22,
+        "end": 23,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 23,
+        "end": 25,
+        "surface": "ni",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 25,
+        "end": 26,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 26,
+        "end": 28,
+        "surface": "wa",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 28,
+        "end": 29,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 29,
+        "end": 33,
+        "surface": "ooki",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 33,
+        "end": 34,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 34,
+        "end": 40,
+        "surface": "sugiru",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123372,13 +125522,113 @@
     "start": 1380.3,
     "end": 1383.89,
     "marginV": 0,
-    "text": "ni",
+    "text": "hateshinai sekai nanoni",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "ni",
+        "end": 10,
+        "surface": "hateshinai",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 10,
+        "end": 11,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 11,
+        "end": 16,
+        "surface": "sekai",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 16,
+        "end": 17,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 17,
+        "end": 23,
+        "surface": "nanoni",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123405,13 +125655,363 @@
     "start": 1383.89,
     "end": 1388.43,
     "marginV": 0,
-    "text": "ru",
+    "text": "naze darou kono ryoute ni wa chiisa sugiru",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
-        "surface": "ru",
+        "end": 4,
+        "surface": "naze",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 4,
+        "end": 5,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 5,
+        "end": 10,
+        "surface": "darou",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 10,
+        "end": 11,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 11,
+        "end": 15,
+        "surface": "kono",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 15,
+        "end": 16,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 16,
+        "end": 22,
+        "surface": "ryoute",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 22,
+        "end": 23,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 23,
+        "end": 25,
+        "surface": "ni",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 25,
+        "end": 26,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 26,
+        "end": 28,
+        "surface": "wa",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 28,
+        "end": 29,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 29,
+        "end": 35,
+        "surface": "chiisa",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 35,
+        "end": 36,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 36,
+        "end": 42,
+        "surface": "sugiru",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123438,13 +126038,63 @@
     "start": 1388.48,
     "end": 1391.04,
     "marginV": 0,
-    "text": "i",
+    "text": "nee modokashii",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 1,
-        "surface": "i",
+        "end": 3,
+        "surface": "nee",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 3,
+        "end": 4,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 4,
+        "end": 14,
+        "surface": "modokashii",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
@@ -123471,12 +126121,262 @@
     "start": 1391.04,
     "end": 1395.48,
     "marginV": 0,
-    "text": "de",
+    "text": "asa no hikari no naka de",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 2,
+        "end": 3,
+        "surface": "asa",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 3,
+        "end": 4,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 4,
+        "end": 6,
+        "surface": "no",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 6,
+        "end": 7,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 7,
+        "end": 13,
+        "surface": "hikari",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 13,
+        "end": 14,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 14,
+        "end": 16,
+        "surface": "no",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 16,
+        "end": 17,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 17,
+        "end": 21,
+        "surface": "naka",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 21,
+        "end": 22,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 22,
+        "end": 24,
         "surface": "de",
         "class": "UNKNOWN",
         "pos": [
@@ -123504,13 +126404,163 @@
     "start": 1395.86,
     "end": 1401.41,
     "marginV": 0,
-    "text": "i",
+    "text": "kimi to warai tai",
     "tokens": [
       {
         "id": 0,
         "start": 0,
-        "end": 1,
-        "surface": "i",
+        "end": 4,
+        "surface": "kimi",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 4,
+        "end": 5,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 5,
+        "end": 7,
+        "surface": "to",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 7,
+        "end": 8,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 8,
+        "end": 13,
+        "surface": "warai",
+        "class": "UNKNOWN",
+        "pos": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "名詞",
+          "固有名詞",
+          "組織",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 38,
+        "start": 13,
+        "end": 14,
+        "surface": " ",
+        "class": "UNKNOWN",
+        "pos": [
+          "記号",
+          "空白",
+          "*",
+          "*"
+        ],
+        "base_form": "",
+        "reading": "",
+        "pronunciation": "",
+        "features": [
+          "記号",
+          "空白",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      },
+      {
+        "id": 0,
+        "start": 14,
+        "end": 17,
+        "surface": "tai",
         "class": "UNKNOWN",
         "pos": [
           "名詞",
