@@ -34,7 +34,9 @@ const processAss = (data?: string) =>
         MarginR: parseInt(MarginR),
         MarginV: parseInt(MarginV),
         Effect,
-        Text: Text.join(",").replace(/\{.+?}/g, ""),
+        Text: Text.join(",")
+          .replace(/\{.+?}/g, "")
+          .replace(/\\N/g, "\n"),
       };
     })
     ?.filter((e) => !e.Style.startsWith("OP_") && !e.Style.startsWith("ED_"))
