@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   const [searchString, setSearchString] = useState("");
+  const filteredListing = Object.entries(listing)
+    .sort((a, b) => a[1].title.localeCompare(b[1].title))
+    .filter(([_, { title }]) =>
+      title.toLowerCase().includes(searchString.toLowerCase()),
+    );
 
   return (
     <div className="flex flex-col w-full max-w-screen-2xl">
@@ -25,20 +30,25 @@ export default function Home() {
           onChange={(e) => setSearchString(e.target.value)}
         />
       </div>
-      {Object.entries(listing)
-        .sort((a, b) => a[1].title.localeCompare(b[1].title))
-        .filter(([_, { title }]) =>
-          title.toLowerCase().includes(searchString.toLowerCase()),
-        )
-        .map(([anime, { title }], i) => (
-          <Link
-            key={i}
-            to={`/${anime}`}
-            className="text-inherit overflow-y-auto border-r shadow-md border-dusk-800 hover:bg-dusk-400 hover:text-pink-300 transition-colors"
-          >
-            <div className="p-2 bg-black/50 line-clamp-1">{title}</div>
-          </Link>
-        ))}
+      {filteredListing.map(([anime, { title }], i) => (
+        <Link
+          key={i}
+          to={`/${anime}`}
+          className="text-inherit overflow-y-auto border-r shadow-md border-dusk-800 hover:bg-dusk-400 hover:text-pink-300 transition-colors"
+        >
+          <div className="p-2 bg-black/50 line-clamp-1">{title}</div>
+        </Link>
+      ))}
+      {searchString.trim() && filteredListing.length === 0 && (
+        <div className="p-4 bg-black/50 rounded">
+          Sorry, we don&apos;t have &quot;{searchString}&quot; <i>yet</i>.{" "}
+          <br />
+          Want me to add it?{" "}
+          <a href="https://buymeacoffee.com/animewing">Buy me a coffee</a> and
+          in the message, include the name of the anime you want added. I will
+          do my best to add it within 24 hours.
+        </div>
+      )}
     </div>
   );
 }
