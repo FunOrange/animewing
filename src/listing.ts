@@ -189,6 +189,15 @@ export const listing: Record<string, AnimeMetadata> = {
     subtitlePath: (episode: number) => "",
     episodes: new Array(22).fill(1).map((_, i) => i + 1),
   },
+  dororo: {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/dororo/${episode}/master.m3u8`,
+    title: "Dororo",
+    subtitlePath: (episode: number) =>
+      `/subs/dororo/dororo.S01E${pad2(episode)}.srt`,
+    episodes: new Array(24).fill(1).map((_, i) => i + 1),
+    offsetSeconds: -1.0,
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");

@@ -93,6 +93,8 @@ async function tokenize(sentence: string) {
 
 async function main() {
   for (const [anime, metadata] of Object.entries(listing)) {
+    if (!metadata.subtitlePath(1)) continue;
+
     for (const episode of metadata.episodes) {
       const metadata = listing[anime];
 
