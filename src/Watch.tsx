@@ -131,7 +131,7 @@ export default function Watch({ anime, metadata }: WatchProps) {
                   ?.sort((a, b) => (b as any).MarginV - (a as any).MarginV)
                   ?.map((subtitle, i) => (
                     <div
-                      className="flex items-center gap-4 max-w-[80%] min-w-[55%]"
+                      className="flex items-center gap-4 max-w-[85%] min-w-[65%]"
                       key={i}
                     >
                       {previousSubtitleHint}

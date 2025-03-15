@@ -198,6 +198,15 @@ export const listing: Record<string, AnimeMetadata> = {
     episodes: new Array(24).fill(1).map((_, i) => i + 1),
     offsetSeconds: -1.0,
   },
+  flcl: {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/fooly-cooly/${episode}/master.m3u8`,
+    title: "FLCL",
+    subtitlePath: (episode: number) => `/subs/flcl/FLCL_JP_${episode}.ass`,
+    episodes: new Array(6).fill(1).map((_, i) => i + 1),
+    offsetSeconds: 0.8,
+    positionY: "3.5%",
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");

@@ -72,7 +72,7 @@ const processSrt = (data?: string, lineEndings?: "crlf" | "lf") =>
         text: _text
           .map((s) => s.trim())
           .join("\n")
-          .replace(/\{.+}/g, "")
+          .replace(/\{.+?}/g, "")
           .replace(/\<.+?>/g, ""),
         tokens: [],
       };
