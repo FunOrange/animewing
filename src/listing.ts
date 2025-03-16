@@ -207,6 +207,13 @@ export const listing: Record<string, AnimeMetadata> = {
     offsetSeconds: 0.8,
     positionY: "3.5%",
   },
+  "look-back": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/look-back/${episode}/master.m3u8`,
+    title: "Look Back",
+    subtitlePath: (episode: number) => "",
+    episodes: new Array(1).fill(1).map((_, i) => i + 1),
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
