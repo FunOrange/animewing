@@ -56,10 +56,10 @@ export default function Watch({ anime, metadata }: WatchProps) {
     metadata.aspectRatio === "4:3" ? "aspect-[4/3]" : "aspect-video";
 
   return (
-    <div className="grid w-full h-screen max-w-screen-2xl grid-cols-[44px_1fr] lg:grid-cols-[140px_1fr]">
+    <div className="w-full lg:h-screen flex flex-col-reverse lg:flex-row lg:justify-center max-w-[1920px]">
       {/* episode list */}
-      <section className="h-full min-h-0 grid grid-rows-[auto_2fr_auto_1fr] border-r shadow-md border-dusk-800">
-        <div className="shrink-0 p-2 bg-dusk-600 text-sm text-pink-300 line-clamp-1">
+      <section className="h-full lg:w-[120px] shrink-0 min-h-0 grid grid-rows-[auto_1fr_auto_auto] border-r shadow-md border-dusk-800">
+        <div className="shrink-0 p-2 bg-dusk-600 text-sm text-pink-300 line-clamp-1 py-[11px]">
           Episode List
         </div>
         <div className="overflow-y-auto h-full border-dusk-800 min-h-0">
@@ -81,6 +81,7 @@ export default function Watch({ anime, metadata }: WatchProps) {
             ))}
           </div>
         </div>
+
         <div className="shrink-0 p-2 bg-dusk-600 text-sm text-pink-300 line-clamp-1">
           Watch2Gether
         </div>
@@ -95,16 +96,43 @@ export default function Watch({ anime, metadata }: WatchProps) {
         </div>
       </section>
 
-      <div className="flex flex-col min-h-0">
-        {/* breadcrumb */}
-        <div className="flex flex-wrap items-center self-start gap-2 px-4 py-2">
-          <Link to="/" className="text-inherit hover:text-pink-300">
-            Home
-          </Link>
-          <div>/</div>
-          <div>{metadata.title}</div>
-          <div>/</div>
-          <div>Episode {currentEpisode}</div>
+      <div className="w-full flex flex-col min-h-0">
+        <div className="flex flex-col lg:flex-row justify-between gap-2 px-4 py-2">
+          {/* breadcrumb */}
+          <div className="flex items-center gap-2 self-start">
+            <Link
+              to="/"
+              className="text-inherit hover:text-pink-300 whitespace-nowrap"
+            >
+              Home
+            </Link>
+            <div>/</div>
+            <div className="whitespace-nowrap">{metadata.title}</div>
+            <div>/</div>
+            <div className="whitespace-nowrap">Episode {currentEpisode}</div>
+          </div>
+
+          {/* controls */}
+          <div className="flex flex-wrap lg:justify-end gap-x-2 gap-y-1">
+            {keyboardShortcut(
+              "F",
+              "Toggle Fullscreen",
+              commands.toggleFullscreen,
+            )}
+            {keyboardShortcut("SPACE", "Play/Pause", commands.playPause)}
+            {keyboardShortcut("SHIFT", "Pause", commands.playPause)}
+            {keyboardShortcut("S", "Hide Subtitles", commands.toggleSubtitles)}
+            {keyboardShortcut(
+              "A",
+              "Go to previous subtitle",
+              commands.goToPreviousSubtitle,
+            )}
+            {keyboardShortcut(
+              "D",
+              "Go to next subtitle",
+              commands.goToNextSubtitle,
+            )}
+          </div>
         </div>
 
         {/* video player */}
@@ -160,27 +188,6 @@ export default function Watch({ anime, metadata }: WatchProps) {
             controls
             width="100%"
           />
-        </div>
-
-        <div className="p-2 flex flex-wrap gap-2 overflow-y-auto">
-          {keyboardShortcut(
-            "F",
-            "Toggle Fullscreen",
-            commands.toggleFullscreen,
-          )}
-          {keyboardShortcut("SPACE", "Play/Pause", commands.playPause)}
-          {keyboardShortcut("SHIFT", "Pause", commands.playPause)}
-          {keyboardShortcut("S", "Hide Subtitles", commands.toggleSubtitles)}
-          {keyboardShortcut(
-            "A",
-            "Go to previous subtitle",
-            commands.goToPreviousSubtitle,
-          )}
-          {keyboardShortcut(
-            "D",
-            "Go to next subtitle",
-            commands.goToNextSubtitle,
-          )}
         </div>
       </div>
     </div>
