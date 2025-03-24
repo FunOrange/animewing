@@ -214,6 +214,14 @@ export const listing: Record<string, AnimeMetadata> = {
     subtitlePath: (episode: number) => "",
     episodes: new Array(1).fill(1).map((_, i) => i + 1),
   },
+  "ping-pong-the-animation": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/ping-pong-the-animation/${episode}/master.m3u8`,
+    title: "Ping Pong the Animation",
+    subtitlePath: (episode: number) =>
+      `/subs/ping-pong-the-animation/PINGPONG.THE.ANIMATION.S01E${pad2(episode)}.WEBRip.Netflix.ja[cc].srt`,
+    episodes: new Array(11).fill(1).map((_, i) => i + 1),
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
