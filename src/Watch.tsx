@@ -16,6 +16,12 @@ export interface WatchProps {
   metadata: AnimeMetadata;
 }
 export default function Watch({ anime, metadata }: WatchProps) {
+  const [syntaxHighlightingEnabled, setSyntaxHighlightingEnabled] =
+    useState<boolean>(
+      JSON.parse(
+        localStorage.getItem(`preferences.syntaxHighlightingEnabled`) ?? "null",
+      ) ?? true,
+    );
   const [currentEpisode, _setCurrentEpisode] = useState(
     (() => {
       const progress = localStorage.getItem(`progress.${anime}`);
@@ -33,7 +39,13 @@ export default function Watch({ anime, metadata }: WatchProps) {
       localStorage.getItem(`preferences.volume`) ?? "1",
     );
   }, []);
-  useRememberState({ videoRef, anime, currentEpisode, currentSeconds });
+  useRememberState({
+    videoRef,
+    anime,
+    currentEpisode,
+    currentSeconds,
+    syntaxHighlightingEnabled,
+  });
 
   const transcript = (() => {
     const transcript = useTranscript({ anime, episode: currentEpisode });
@@ -132,6 +144,9 @@ export default function Watch({ anime, metadata }: WatchProps) {
               "Go to next subtitle",
               commands.goToNextSubtitle,
             )}
+            {keyboardShortcut(null, "Toggle Colors", () =>
+              setSyntaxHighlightingEnabled((prev) => !prev),
+            )}
           </div>
         </div>
 
@@ -165,7 +180,12 @@ export default function Watch({ anime, metadata }: WatchProps) {
                       {previousSubtitleHint}
                       <div className="w-full whitespace-pre-line px-3 py-2 text-center text-white border-2 pointer-events-auto md:px-6 md:py-4 2xl:py-8 text-md md:text-xl xl:text-3xl 2xl:text-4xl border-dusk-500 bg-black/70 backdrop-blur-2xl rounded-xl">
                         {subtitle.tokens.map((token, i) => (
-                          <span key={i} className={posStyles(token.pos)}>
+                          <span
+                            key={i}
+                            className={cn(
+                              syntaxHighlightingEnabled && posStyles(token.pos),
+                            )}
+                          >
                             {token.surface}
                           </span>
                         ))}
@@ -226,18 +246,20 @@ const posStyles = (pos: Token["pos"]) =>
     .with(["名詞", "固有名詞", "人名", "名"], () => "text-emerald-300")
     .otherwise(() => "text-dusk-50");
 
-const keyboardShortcut = (key: string, text: string, command) => (
+const keyboardShortcut = (key: string | null, text: string, command) => (
   <div
     className={cn(
-      "flex items-center gap-2 pr-2 bg-dusk-500 border border-dusk-400 rounded text-xs",
+      "flex items-center pr-2 bg-dusk-500 border border-dusk-400 rounded text-xs",
       "cursor-pointer hover:brightness-125 transition-all",
     )}
     onClick={command}
   >
-    <div className="py-1 px-2 bg-dusk-700 font-mono text-dusk-100 rounded">
-      {key}
-    </div>
-    {text}
+    {key && (
+      <div className="py-1 px-2 bg-dusk-700 font-mono text-dusk-100 rounded">
+        {key}
+      </div>
+    )}
+    <div className="pl-2">{text}</div>
   </div>
 );
 
