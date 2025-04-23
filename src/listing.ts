@@ -222,6 +222,16 @@ export const listing: Record<string, AnimeMetadata> = {
       `/subs/ping-pong-the-animation/PINGPONG.THE.ANIMATION.S01E${pad2(episode)}.WEBRip.Netflix.ja[cc].srt`,
     episodes: new Array(11).fill(1).map((_, i) => i + 1),
   },
+  "higurashi-no-naku-koro-ni-": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/higurashi-no-naku-koro-ni-/${episode}/master.m3u8`,
+    title: "Higurashi When They Cry",
+    subtitlePath: (episode: number) =>
+      `/subs/higurashi/When They Cry.S01E${pad2(episode)}.JA.srt`,
+    episodes: new Array(26).fill(1).map((_, i) => i + 1),
+    offsetSeconds: -0.9,
+    positionY: "3.5%",
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
