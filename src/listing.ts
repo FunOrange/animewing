@@ -232,6 +232,15 @@ export const listing: Record<string, AnimeMetadata> = {
     offsetSeconds: -0.9,
     positionY: "3.5%",
   },
+  "ore-dake-level-up-na-ken": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/ore-dake-level-up-na-ken/${episode}/master.m3u8`,
+    title: "Solo Leveling",
+    subtitlePath: (episode: number) =>
+      `/subs/ore-dake-level-up-na-ken/俺だけレベルアップな件.S01E${pad2(episode)}.srt`,
+    episodes: new Array(12).fill(1).map((_, i) => i + 1),
+    offsetSeconds: -1,
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
