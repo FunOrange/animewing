@@ -241,6 +241,15 @@ export const listing: Record<string, AnimeMetadata> = {
     episodes: new Array(12).fill(1).map((_, i) => i + 1),
     offsetSeconds: -1,
   },
+  "mahou-shoujo-madoka-magica": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/mahou-shoujo-madoka-magica/${episode}/master.m3u8`,
+    title: "Mahou Shoujo Madoka Magica",
+    subtitlePath: (episode: number) =>
+      `/subs/mahou-shoujo-madoka-magica/[Erai-raws] Mahou Shoujo Madoka Magica - ${pad2(episode)} [720p][Multiple Subtitle].mkv.srt`,
+    episodes: new Array(12).fill(1).map((_, i) => i + 1),
+    offsetSeconds: 0.7,
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
