@@ -264,7 +264,7 @@ export const listing: Record<string, AnimeMetadata> = {
     m3u8: (episode: number) =>
       `https://hlsx3cdn.echovideo.to/detective-conan-movie-23-the-fist-of-blue-sapphire/${episode}/master.m3u8`,
     title: "Detective Conan Movie 23: The Fist of Blue Sapphire",
-    subtitlePath: (episode: number) => `/subs/detective-conan/movie-23.srt`,
+    subtitlePath: () => `/subs/detective-conan/movie-23.srt`,
     episodes: [1],
     offsetSeconds: 0,
   },
@@ -283,6 +283,16 @@ export const listing: Record<string, AnimeMetadata> = {
     subtitlePath: () => `/subs/detective-conan/movie-25.srt`,
     episodes: [1],
     offsetSeconds: 0,
+  },
+  "sakamichi-no-apollon": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/sakamichi-no-apollon/${episode}/master.m3u8`,
+    title: "Kids on the Slope",
+    subtitlePath: (episode: number) =>
+      `/subs/sakamichi-no-apollon/Sakamichi_No_Apollon_${pad3(episode)}.srt`,
+    episodes: new Array(12).fill(1).map((_, i) => i + 1),
+    offsetSeconds: -310.7,
+    positionY: "4%",
   },
 };
 
