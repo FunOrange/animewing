@@ -232,6 +232,16 @@ export const listing: Record<string, AnimeMetadata> = {
     offsetSeconds: -0.9,
     positionY: "3.5%",
   },
+  "higurashi-no-naku-koro-ni-kai": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/higurashi-no-naku-koro-ni/${episode}/master.m3u8`,
+    title: "Higurashi When They Cry Kai",
+    subtitlePath: (episode: number) =>
+      `/subs/higurashi-kai/When They Cry Kai.S01E${pad2(episode)}.JA.srt`,
+    episodes: new Array(24).fill(1).map((_, i) => i + 1),
+    offsetSeconds: -1.0,
+    positionY: "3.5%",
+  },
   "ore-dake-level-up-na-ken": {
     m3u8: (episode: number) =>
       `https://hlsx3cdn.echovideo.to/ore-dake-level-up-na-ken/${episode}/master.m3u8`,
