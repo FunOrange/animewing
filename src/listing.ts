@@ -250,6 +250,30 @@ export const listing: Record<string, AnimeMetadata> = {
     episodes: new Array(12).fill(1).map((_, i) => i + 1),
     offsetSeconds: 0.7,
   },
+  "detective-conan-movie-23": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/detective-conan-movie-23-the-fist-of-blue-sapphire/${episode}/master.m3u8`,
+    title: "Detective Conan Movie 23: The Fist of Blue Sapphire",
+    subtitlePath: (episode: number) => `/subs/detective-conan/movie-23.srt`,
+    episodes: [1],
+    offsetSeconds: 0,
+  },
+  "detective-conan-movie-24": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/detective-conan-movie-24-the-scarlet-bullet/${episode}/master.m3u8`,
+    title: "Detective Conan Movie 24: The Scarlet Bullet",
+    subtitlePath: () => `/subs/detective-conan/movie-24.srt`,
+    episodes: [1],
+    offsetSeconds: 0,
+  },
+  "detective-conan-movie-25": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/detective-conan-movie-25-halloween-no-hanayome/${episode}/master.m3u8`,
+    title: "Detective Conan Movie 25: The Bride of Halloween",
+    subtitlePath: () => `/subs/detective-conan/movie-25.srt`,
+    episodes: [1],
+    offsetSeconds: 0,
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
