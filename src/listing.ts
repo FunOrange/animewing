@@ -294,6 +294,16 @@ export const listing: Record<string, AnimeMetadata> = {
     offsetSeconds: -310.7,
     positionY: "4%",
   },
+  "black-lagoon": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/black-lagoon/${episode}/master.m3u8`,
+    title: "Black Lagoon",
+    subtitlePath: (episode: number) =>
+      `/subs/black-lagoon/BLACK LAGOON.S01E${pad2(episode)}.JA.srt`,
+    episodes: new Array(12).fill(1).map((_, i) => i + 1),
+    offsetSeconds: 0,
+    positionY: "4%",
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
