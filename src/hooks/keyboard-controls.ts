@@ -4,6 +4,8 @@ import useTranscript from "./transcript";
 export default function useKeyboardControls(
   videoRef: RefObject<HTMLVideoElement | null>,
   transcript: ReturnType<typeof useTranscript>,
+  setUserOffset: React.Dispatch<React.SetStateAction<number>>,
+  setToastMessage: React.Dispatch<React.SetStateAction<string | undefined>>,
 ) {
   const [showSubtitles, setShowSubtitles] = useState(true);
   const [fullscreen, setFullscreen] = useState(false);
@@ -56,6 +58,20 @@ export default function useKeyboardControls(
         videoRef.current!.currentTime = nextDialogue.start;
       }
     },
+    offsetSubtitlesEarlier: () =>
+      setUserOffset((prev) => {
+        const offset = prev - 0.1;
+        const desc = offset < 0 ? "earlier" : "later";
+        setToastMessage(`Subtitle offset: ${offset.toFixed(1)}s ${desc}`);
+        return offset;
+      }),
+    offsetSubtitlesLater: () =>
+      setUserOffset((prev) => {
+        const offset = prev + 0.1;
+        const desc = offset < 0 ? "earlier" : "later";
+        setToastMessage(`Subtitle offset: ${offset.toFixed(1)}s ${desc}`);
+        return offset;
+      }),
   };
 
   useEffect(() => {
@@ -85,6 +101,10 @@ export default function useKeyboardControls(
       } else if (e.key === "f") {
         commands.toggleFullscreen();
         e.stopPropagation();
+      } else if (e.key === "-" || e.key === "_") {
+        commands.offsetSubtitlesEarlier();
+      } else if (e.key === "+" || e.key === "=") {
+        commands.offsetSubtitlesLater();
       }
     };
     const fullscreenchange = () => {

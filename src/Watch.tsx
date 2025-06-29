@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 import { match } from "ts-pattern";
 import useRememberState from "./hooks/remember-state";
 import Watch2Gether from "./Watch2Gether";
+import Toast from "./Toast";
+import { defaultTo } from "ramda";
 
 export interface WatchProps {
   anime: string;
@@ -39,29 +41,50 @@ export default function Watch({ anime, metadata }: WatchProps) {
       localStorage.getItem(`preferences.volume`) ?? "1",
     );
   }, []);
+
+  const initialUserOffset = defaultTo(
+    0,
+    Number(localStorage.getItem(`preferences.${anime}.offsetSeconds`)),
+  );
+  const [userOffset, setUserOffset] = useState(initialUserOffset);
+
   useRememberState({
     videoRef,
     anime,
     currentEpisode,
     currentSeconds,
     syntaxHighlightingEnabled,
+    userOffset,
   });
 
   const transcript = (() => {
     const transcript = useTranscript({ anime, episode: currentEpisode });
     return transcript?.map((e) => ({
       ...e,
-      start: e.start + (metadata.offsetSeconds ?? 0),
-      end: e.end + (metadata.offsetSeconds ?? 0),
+      start: e.start + (metadata.offsetSeconds ?? 0) + userOffset,
+      end: e.end + (metadata.offsetSeconds ?? 0) + userOffset,
     }));
   })();
   const currentSubtitles = transcript?.filter(
     (t) => t.start <= currentSeconds && t.end >= currentSeconds,
   );
 
+  const [toastMessage, setToastMessage] = useState<string | undefined>(
+    (() => {
+      if (!initialUserOffset) return undefined;
+      const offsetString = initialUserOffset.toLocaleString("en-US", {
+        minimumFractionDigits: 1,
+        maximumFractionDigits: 1,
+      });
+      const desc = initialUserOffset < 0 ? "earlier" : "later";
+      return `Subtitle offset: ${offsetString}s ${desc}`;
+    })(),
+  );
   const { showSubtitles, fullscreen, commands } = useKeyboardControls(
     videoRef,
     transcript,
+    setUserOffset,
+    setToastMessage,
   );
 
   const aspectRatio =
@@ -136,14 +159,12 @@ export default function Watch({ anime, metadata }: WatchProps) {
             {keyboardShortcut("S", "Hide Subtitles", commands.toggleSubtitles)}
             {keyboardShortcut(
               "A",
-              "Go to previous subtitle",
+              "Prev subtitle",
               commands.goToPreviousSubtitle,
             )}
-            {keyboardShortcut(
-              "D",
-              "Go to next subtitle",
-              commands.goToNextSubtitle,
-            )}
+            {keyboardShortcut("D", "Next subtitle", commands.goToNextSubtitle)}
+            {keyboardShortcut("-", "offset", commands.offsetSubtitlesEarlier)}
+            {keyboardShortcut("+", "offset", commands.offsetSubtitlesLater)}
             {keyboardShortcut(null, "Toggle Colors", () =>
               setSyntaxHighlightingEnabled((prev) => !prev),
             )}
@@ -210,6 +231,8 @@ export default function Watch({ anime, metadata }: WatchProps) {
           />
         </div>
       </div>
+
+      <Toast message={toastMessage} />
     </div>
   );
 }
@@ -246,11 +269,11 @@ const posStyles = (pos: Token["pos"]) =>
     .with(["名詞", "固有名詞", "人名", "名"], () => "text-emerald-300")
     .otherwise(() => "text-dusk-50");
 
-const keyboardShortcut = (key: string | null, text: string, command) => (
+const keyboardShortcut = (key: string | null, text: string | null, command) => (
   <div
     className={cn(
-      "flex items-center pr-2 bg-dusk-500 border border-dusk-400 rounded text-xs",
-      "cursor-pointer hover:brightness-125 transition-all",
+      "flex items-center bg-dusk-500 border border-dusk-400 rounded text-xs",
+      "cursor-pointer hover:brightness-125 transition-all select-none",
     )}
     onClick={command}
   >
@@ -259,7 +282,7 @@ const keyboardShortcut = (key: string | null, text: string, command) => (
         {key}
       </div>
     )}
-    <div className="pl-2">{text}</div>
+    {text && <div className="px-2">{text}</div>}
   </div>
 );
 

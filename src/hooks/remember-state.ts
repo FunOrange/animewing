@@ -6,6 +6,7 @@ interface UseRememberProgressArgs {
   currentEpisode: number;
   currentSeconds: number;
   syntaxHighlightingEnabled: boolean;
+  userOffset: number;
 }
 export default function useRememberState(args: UseRememberProgressArgs) {
   useEffect(() => {
@@ -33,4 +34,11 @@ export default function useRememberState(args: UseRememberProgressArgs) {
       JSON.stringify(args.syntaxHighlightingEnabled),
     );
   }, [args.syntaxHighlightingEnabled]);
+
+  useEffect(() => {
+    localStorage.setItem(
+      `preferences.${args.anime}.offsetSeconds`,
+      args.userOffset.toFixed(1),
+    );
+  }, [args.userOffset]);
 }
