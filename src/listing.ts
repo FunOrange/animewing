@@ -304,6 +304,16 @@ export const listing: Record<string, AnimeMetadata> = {
     offsetSeconds: 0,
     positionY: "4%",
   },
+  "hibike-euphonium": {
+    m3u8: (episode: number) =>
+      `https://hlsx3cdn.echovideo.to/hibike-euphonium/${episode}/master.m3u8`,
+    title: "Hibike Euphonium",
+    subtitlePath: (episode: number) =>
+      `/subs/hibike-euphonium/[Kamigami] Hibike! Euphonium - ${pad2(episode)}.ass`,
+    episodes: new Array(13).fill(1).map((_, i) => i + 1),
+    offsetSeconds: 0,
+    positionY: "4%",
+  },
 };
 
 const pad2 = (episode: number) => episode.toString().padStart(2, "0");
