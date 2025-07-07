@@ -4,7 +4,7 @@ Watch anime with Japanese subtitles.
 ## Features
 - No ads
 - Japanese subtitles
-- Color coded words based on adjective, noun, verb, connecting words
+- Words are color coded based on adjective, noun, verb, connecting words
 - Jump to previous/next dialogue
 - Anime watch progress is saved and restored
 - Watch together: video players synced over websockets
