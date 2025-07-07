@@ -1,5 +1,5 @@
 # animewing
-Watch anime with Japanese subtitles
+Watch anime with Japanese subtitles.
 
 ## Features
 - No ads
@@ -16,3 +16,5 @@ We render the subtitle text directly to the web page to make it accessible to a 
 - browser extensions eg. 10ten, yomitan
 - built-in operating system tools eg. select text > right click > translate selection
 - OCR tools
+
+Disclaimer: This site does not host any video content.
